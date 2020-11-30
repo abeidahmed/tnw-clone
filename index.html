@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="./stylesheets/fonts.css" />
     <link rel="stylesheet" href="./stylesheets/variables.css" />
     <link rel="stylesheet" href="./stylesheets/reset.css" />
@@ -24,9 +28,7 @@
         <img style="height: 16px;" src="./assets/tnw.svg" alt="" />
       </div>
       <div class="flex-1">
-        <div
-          class="header__top hidden md:flex items-center justify-between px-5 bg-gray-900"
-        >
+        <div class="header__top hidden md:flex items-center justify-between px-5 bg-gray-900">
           <nav class="text-gray-400 text-xs space-x-2">
             <a href="#" class="text-white">News</a>
             <a href="#">Events</a>
@@ -48,42 +50,16 @@
             <a href="#" class="text-sm text-gray-400 uppercase">Hard fork</a>
             <a href="#" class="text-sm text-gray-400 uppercase">Plugged</a>
             <a href="#" class="text-sm text-gray-400 uppercase">Readme</a>
-            <a href="#" class="text-sm text-gray-400 uppercase"
-              >Growth quarters</a
-            >
+            <a href="#" class="text-sm text-gray-400 uppercase">
+              Growth quarters
+            </a>
           </nav>
           <div class="flex items-center ml-auto">
             <button class="btn__icon text-gray-400">
-              <svg
-                height="24"
-                width="24"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                />
-              </svg>
+              <i class="fas fa-search text-lg"></i>
             </button>
             <button class="btn__icon md:hidden text-primary">
-              <svg
-                height="24"
-                width="24"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
+              <i class="fas fa-bars text-lg"></i>
             </button>
           </div>
         </div>
@@ -96,9 +72,7 @@
             <img height="48" src="./assets/tnw.svg" alt="" />
           </div>
           <div class="card__overlay"></div>
-          <div
-            class="hidden lg:block card__overlay card__overlay--primary"
-          ></div>
+          <div class="hidden lg:block card__overlay card__overlay--primary"></div>
           <a href="#" class="card__link"></a>
           <img src="./assets/featured.jpg" alt="" class="card__featured-box" />
           <div class="card__meta-container">
@@ -109,35 +83,13 @@
             <div class="card__featured-meta">
               <span>by Matthew Beedham</span>
               <span class="flex items-center">
-                <svg
-                  width="14"
-                  height="14"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
+                <i class="far fa-clock text-xs"></i>
                 <span class="ml-1">
                   1 hour ago
                 </span>
               </span>
               <span class="flex items-center">
-                <svg
-                  width="14"
-                  height="14"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z"
-                  />
-                </svg>
+                <i class="fas fa-share-alt text-xs"></i>
                 <span class="ml-1">
                   6
                 </span>
@@ -149,50 +101,22 @@
           <div class="card__featured">
             <div class="card__overlay"></div>
             <a href="#" class="card__link"></a>
-            <img
-              src="./assets/featured-2.png"
-              alt=""
-              class="card__featured-box"
-            />
+            <img src="./assets/featured-2.png" alt="" class="card__featured-box" />
             <div class="card__meta-container">
               <span class="card__featured-category">Insights</span>
-              <h3
-                class="card__featured-title card__featured-title--scalable--sm"
-              >
+              <h3 class="card__featured-title card__featured-title--scalable--sm">
                 Long term impacts
               </h3>
               <div class="card__featured-meta">
                 <span>by Ivan Mehta</span>
                 <span class="flex items-center">
-                  <svg
-                    width="14"
-                    height="14"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
+                  <i class="far fa-clock text-xs"></i>
                   <span class="ml-1">
                     10 hours ago
                   </span>
                 </span>
                 <span class="flex items-center">
-                  <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z"
-                    />
-                  </svg>
+                  <i class="fas fa-share-alt text-xs"></i>
                   <span class="ml-1">
                     15
                   </span>
@@ -203,50 +127,22 @@
           <div class="card__featured">
             <div class="card__overlay"></div>
             <a href="#" class="card__link"></a>
-            <img
-              src="./assets/featured-3.jpg"
-              alt=""
-              class="card__featured-box"
-            />
+            <img src="./assets/featured-3.jpg" alt="" class="card__featured-box" />
             <div class="card__meta-container">
               <span class="card__featured-category">Tech</span>
-              <h3
-                class="card__featured-title card__featured-title--scalable--sm"
-              >
+              <h3 class="card__featured-title card__featured-title--scalable--sm">
                 Maseratti going electric
               </h3>
               <div class="card__featured-meta">
                 <span>by Built in</span>
                 <span class="flex items-center">
-                  <svg
-                    width="14"
-                    height="14"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
+                  <i class="far fa-clock text-xs"></i>
                   <span class="ml-1">
                     3 hours ago
                   </span>
                 </span>
                 <span class="flex items-center">
-                  <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z"
-                    />
-                  </svg>
+                  <i class="fas fa-share-alt text-xs"></i>
                   <span class="ml-1">
                     8
                   </span>
