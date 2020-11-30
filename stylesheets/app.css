@@ -2,13 +2,24 @@
   min-height: calc(100vh - 48px);
 }
 
+.container {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
 .section {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .section__header {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+}
+
+.section__header:hover .section__title,
+.section__header:hover .section__title-icon {
+  color: var(--gray-900);
 }
 
 .section__title {
@@ -26,6 +37,11 @@
 .section__title-icon {
   color: var(--primary);
   line-height: 32px;
+  transition: all 150ms ease-in-out;
+}
+
+.section__content {
+  margin-top: 20px;
 }
 
 @media only screen and (min-width: 768px) {
