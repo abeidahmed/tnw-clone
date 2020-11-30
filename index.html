@@ -6,11 +6,14 @@
     <link rel="stylesheet" href="./stylesheets/fonts.css" />
     <link rel="stylesheet" href="./stylesheets/variables.css" />
     <link rel="stylesheet" href="./stylesheets/reset.css" />
+    <link rel="stylesheet" href="./stylesheets/app.css" />
     <link rel="stylesheet" href="./stylesheets/header.css" />
+    <link rel="stylesheet" href="./stylesheets/card.css" />
     <link rel="stylesheet" href="./stylesheets/button.css" />
     <link rel="stylesheet" href="./stylesheets/typography.css" />
     <link rel="stylesheet" href="./stylesheets/background.css" />
     <link rel="stylesheet" href="./stylesheets/flex.css" />
+    <link rel="stylesheet" href="./stylesheets/grid.css" />
     <link rel="stylesheet" href="./stylesheets/display.css" />
     <link rel="stylesheet" href="./stylesheets/spacing.css" />
     <title>TNW clone</title>
@@ -18,7 +21,7 @@
   <body>
     <header class="flex header">
       <div class="px-4 bg-gray-900 flex items-center justify-center lg:hidden">
-        <img src="./assets/tnw.svg" alt="" />
+        <img style="height: 16px;" src="./assets/tnw.svg" alt="" />
       </div>
       <div class="flex-1">
         <div
@@ -86,5 +89,173 @@
         </div>
       </div>
     </header>
+    <main class="p-3 main">
+      <div class="grid gap-3 md:grid-cols-3">
+        <div class="card__featured md:col-span-2">
+          <div class="featured__img-logo hidden lg:block">
+            <img height="48" src="./assets/tnw.svg" alt="" />
+          </div>
+          <div class="card__overlay"></div>
+          <div
+            class="hidden lg:block card__overlay card__overlay--primary"
+          ></div>
+          <a href="#" class="card__link"></a>
+          <img src="./assets/featured.jpg" alt="" class="card__featured-box" />
+          <div class="card__meta-container">
+            <span class="card__featured-category">Landscape</span>
+            <h3 class="card__featured-title card__featured-title--scalable">
+              Maseratti commits to going all-electric by 2005, COO says
+            </h3>
+            <div class="card__featured-meta">
+              <span>by Matthew Beedham</span>
+              <span class="flex items-center">
+                <svg
+                  width="14"
+                  height="14"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span class="ml-1">
+                  1 hour ago
+                </span>
+              </span>
+              <span class="flex items-center">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z"
+                  />
+                </svg>
+                <span class="ml-1">
+                  6
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="grid md:col-span-1 gap-3">
+          <div class="card__featured">
+            <div class="card__overlay"></div>
+            <a href="#" class="card__link"></a>
+            <img
+              src="./assets/featured-2.png"
+              alt=""
+              class="card__featured-box"
+            />
+            <div class="card__meta-container">
+              <span class="card__featured-category">Insights</span>
+              <h3
+                class="card__featured-title card__featured-title--scalable--sm"
+              >
+                Long term impacts
+              </h3>
+              <div class="card__featured-meta">
+                <span>by Ivan Mehta</span>
+                <span class="flex items-center">
+                  <svg
+                    width="14"
+                    height="14"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span class="ml-1">
+                    10 hours ago
+                  </span>
+                </span>
+                <span class="flex items-center">
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z"
+                    />
+                  </svg>
+                  <span class="ml-1">
+                    15
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="card__featured">
+            <div class="card__overlay"></div>
+            <a href="#" class="card__link"></a>
+            <img
+              src="./assets/featured-3.jpg"
+              alt=""
+              class="card__featured-box"
+            />
+            <div class="card__meta-container">
+              <span class="card__featured-category">Tech</span>
+              <h3
+                class="card__featured-title card__featured-title--scalable--sm"
+              >
+                Maseratti going electric
+              </h3>
+              <div class="card__featured-meta">
+                <span>by Built in</span>
+                <span class="flex items-center">
+                  <svg
+                    width="14"
+                    height="14"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span class="ml-1">
+                    3 hours ago
+                  </span>
+                </span>
+                <span class="flex items-center">
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z"
+                    />
+                  </svg>
+                  <span class="ml-1">
+                    8
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
