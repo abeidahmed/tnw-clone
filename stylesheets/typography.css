@@ -38,6 +38,16 @@
   font-weight: 500;
 }
 
-.font-medium-bold {
+.font-semibold {
   font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+  .md\:text-sm {
+    font-size: 14px;
+  }
+
+  .md\:font-medium {
+    font-weight: 500;
+  }
 }

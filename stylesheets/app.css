@@ -12,11 +12,6 @@
   margin-top: 60px;
 }
 
-.section__header {
-  display: inline-flex;
-  align-items: center;
-}
-
 .section__header:hover .section__title,
 .section__header:hover .section__title-icon {
   color: var(--gray-900);
@@ -29,15 +24,15 @@
 }
 
 .section__title-icon {
-  margin-left: 8px;
-  margin-top: 6px;
+  margin-left: 4px;
+  font-size: 18px;
 }
 
 .section__title,
 .section__title-icon {
   color: var(--primary);
-  line-height: 32px;
   transition: all 150ms ease-in-out;
+  line-height: 32px;
 }
 
 .section__content {
