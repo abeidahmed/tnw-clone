@@ -6,6 +6,11 @@
   padding: 12px;
 }
 
+.px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 .px-4 {
   padding-left: 16px;
   padding-right: 16px;
@@ -16,6 +21,11 @@
   padding-right: 20px;
 }
 
+.py-3 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 .space-x-2 > * + * {
   margin-left: 8px;
 }
@@ -24,10 +34,33 @@
   margin-left: 12px;
 }
 
+.space-y-2 > * + * {
+  margin-top: 8px;
+}
+
 .ml-1 {
   margin-left: 4px;
 }
 
 .ml-auto {
   margin-left: auto;
+}
+
+.mt-3 {
+  margin-top: 12px;
+}
+
+.mt-4 {
+  margin-top: 16px;
+}
+
+.my-3 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .md\:space-x-2 > * + * {
+    margin-left: 8px;
+  }
 }

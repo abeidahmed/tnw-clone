@@ -1,0 +1,19 @@
+.advert__link {
+  color: var(--primary);
+}
+
+.advert__link:hover {
+  color: var(--gray-900);
+}
+
+.advert__image {
+  height: 64px;
+  width: 64px;
+  transform: translateY(-50%);
+  margin-top: -50px;
+  margin-left: 12px;
+}
+
+.advert__header {
+  margin-left: 92px;
+}

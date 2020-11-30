@@ -10,6 +10,10 @@
   display: grid;
 }
 
+.block {
+  display: block;
+}
+
 @media only screen and (min-width: 768px) {
   .md\:hidden {
     display: none;
@@ -17,6 +21,10 @@
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:block {
+    display: block;
   }
 }
 
@@ -27,5 +35,9 @@
 
   .lg\:block {
     display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
   }
 }

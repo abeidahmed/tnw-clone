@@ -2,6 +2,10 @@
   gap: 12px;
 }
 
+.gap-5 {
+  gap: 20px;
+}
+
 @media only screen and (min-width: 768px) {
   .md\:gap-4 {
     gap: 16px;
