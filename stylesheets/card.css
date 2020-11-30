@@ -14,7 +14,6 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 12px;
 }
 
 .card__featured-category,
@@ -47,6 +46,19 @@
   margin-left: 8px;
 }
 
+.card__featured__date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.card__meta-container,
+.card__featured__date {
+  padding: 12px;
+}
+
 .card__overlay {
   position: absolute;
   top: 0;
@@ -55,8 +67,8 @@
   right: 0;
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 0.3956933115042892) 0%,
-    rgba(5, 4, 4, 0.5805672610841212) 20%,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(5, 4, 4, 0.6) 20%,
     rgba(0, 0, 0, 1) 100%
   );
   transition: all 150ms ease-in-out;
