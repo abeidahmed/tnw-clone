@@ -3,6 +3,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .md\:gap-4 {
+    gap: 16px;
+  }
+
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -13,5 +17,11 @@
 
   .md\:col-span-2 {
     grid-column: span 2 / span 2;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
