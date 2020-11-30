@@ -1,19 +1,11 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid var(--gray-300);
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.header__top {
+  height: 28px;
+}
+
+.header__bottom {
   height: 48px;
-}
-
-.header__logo {
-  background-color: var(--gray-900);
-  padding: 0 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.header__icons {
-  display: flex;
-  align-items: center;
 }

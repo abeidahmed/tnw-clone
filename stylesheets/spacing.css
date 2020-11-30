@@ -1,0 +1,25 @@
+.w-full {
+  width: 100%;
+}
+
+.px-4 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.px-5 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.space-x-2 > * + * {
+  margin-left: 8px;
+}
+
+.space-x-3 > * + * {
+  margin-left: 12px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
