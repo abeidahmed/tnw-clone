@@ -2,6 +2,32 @@
   min-height: calc(100vh - 48px);
 }
 
+.section {
+  margin-top: 40px;
+}
+
+.section__header {
+  display: flex;
+  align-items: center;
+}
+
+.section__title {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.0375em;
+}
+
+.section__title-icon {
+  margin-left: 8px;
+  margin-top: 6px;
+}
+
+.section__title,
+.section__title-icon {
+  color: var(--primary);
+  line-height: 32px;
+}
+
 @media only screen and (min-width: 768px) {
   .main {
     min-height: calc(100vh - 77px);
