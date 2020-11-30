@@ -1,0 +1,16 @@
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray-300);
+  height: 56px;
+}
+.header__logo {
+  background-color: black;
+  padding: 0 16px;
+}
+.search {
+  padding: 0 4px;
+  border-left: 1px solid var(--gray-300);
+  border-right: 1px solid var(--gray-300);
+  height: 56px;
+}
