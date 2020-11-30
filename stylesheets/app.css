@@ -1,5 +1,11 @@
 .main {
   min-height: calc(100vh - 48px);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.12) 29%,
+    rgba(195, 195, 195, 0.35) 100%
+  );
 }
 
 .container {
