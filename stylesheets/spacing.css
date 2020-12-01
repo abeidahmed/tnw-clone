@@ -10,6 +10,10 @@
   padding: 12px;
 }
 
+.pr-2 {
+  padding-right: 8px;
+}
+
 .px-3 {
   padding-left: 12px;
   padding-right: 12px;

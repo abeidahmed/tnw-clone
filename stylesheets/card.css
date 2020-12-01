@@ -73,6 +73,10 @@
   opacity: 0.95;
 }
 
+.card__featured-box {
+  width: 100%;
+}
+
 .card__link,
 .featured__box {
   position: absolute;
