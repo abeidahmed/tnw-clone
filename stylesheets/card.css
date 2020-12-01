@@ -61,22 +61,12 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.4) 0%,
-    rgba(5, 4, 4, 0.6) 20%,
-    rgba(0, 0, 0, 1) 100%
-  );
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(5, 4, 4, 0.6) 20%, rgba(0, 0, 0, 1) 100%);
   transition: all 150ms ease-in-out;
 }
 
 .card__overlay--primary {
-  background: linear-gradient(
-    331deg,
-    rgba(0, 0, 0, 0.4) 0%,
-    rgba(5, 4, 4, 0.7) 29%,
-    rgba(255, 60, 50, 0.9) 100%
-  );
+  background: linear-gradient(331deg, rgba(0, 0, 0, 0.4) 0%, rgba(5, 4, 4, 0.7) 29%, rgba(255, 60, 50, 0.9) 100%);
 }
 
 .card__featured:hover .card__overlay {
