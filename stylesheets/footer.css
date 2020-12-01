@@ -1,0 +1,38 @@
+.footer__wrapper {
+  height: 160px;
+}
+
+.footer__bottom {
+  height: 97px;
+}
+
+.footer__icons {
+  font-size: 16px;
+  background-color: var(--gray-999);
+  padding: 14px;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.footer__icons:hover {
+  background-color: var(--gray-1100);
+  border: 2px solid var(--gray-999);
+  transform: scale(0.99);
+}
+
+.footer__text {
+  color: var(--gray-400);
+  font-size: 12px;
+}
+
+.footer__text > a:hover {
+  color: #fff;
+}
+
+.footer__wrapper {
+  background-color: var(--gray-1000);
+}
+
+.footer__bottom {
+  background-color: var(--gray-1100);
+}
