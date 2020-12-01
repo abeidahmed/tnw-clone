@@ -46,6 +46,10 @@
   text-decoration: line-through;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .hover\:text-gray-900:hover {
   color: var(--gray-900);
 }
