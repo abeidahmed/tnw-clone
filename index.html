@@ -283,8 +283,6 @@
                 <i class="fas fa-chevron-right section__title-icon"></i>
               </h2>
             </a>
-            <div class="text-xs lg:flex md:space-x-2 md:flex">
-              <a href="#" class="block advert__link">See more</a>
             <div
               class="text-xs space-y-2 md:text-sm md:font-medium md:flex md:space-x-2 md:space-y-0"
             >
@@ -454,49 +452,45 @@
         </section>
         <section class="section">
           <div class="news__box grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            <div class="news__page">
+            <div class="md:col-span-1">
               <a href="#" class="section__header">
-                <h2 class="section__title my-3">Hard Fork</h2>
-                <i class="fas fa-chevron-right section__title-icon"></i>
+                <h2 class="section__title my-3">
+                  Hard Fork
+                  <i class="fas fa-chevron-right section__title-icon"></i>
+                </h2>
               </a>
-              <div class="card__featured">
-                <div class="card__overlay"></div>
-                <a href="#" class="card__link"></a>
-                <img
-                  src="./assets/featured-2.png"
-                  alt=""
-                  class="card__featured-box"
-                />
-                <div class="card__meta-container">
-                  <span class="card__featured-category"> MOST POPULAR</span>
-                  <h3 class="card__featured-title underline-gray">
-                    Square stock on fire: Jack Dorsey's beard sets 3 share price
-                    records in 3 days
-                  </h3>
-                  <div class="card__featured-meta">
-                    <span class="underline-gray">David Canellis</span>
-                    <span class="flex items-center">
-                      <i class="far fa-clock text-xs"></i>
-                      <span class="ml-1"> 10 hours ago </span>
-                    </span>
+              <a href="#">
+                <div class="card__featured">
+                  <div class="card__overlay"></div>
+                  <img src="./assets/featured-2.png" alt="" class="card__featured-box" />
+                  <div class="card__meta-container">
+                    <span class="card__featured-category">Most popular</span>
+                    <h3 class="card__featured-title hover:underline">
+                      Square stock on fire: Jack Dorsey's beard sets 3 share price records in 3 days
+                    </h3>
+                    <div class="card__featured-meta">
+                      <span class="hover:text-white">David Canellis</span>
+                      <span class="flex items-center">
+                        <i class="far fa-clock text-xs"></i>
+                        <span class="ml-1"> 10 hours ago </span>
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="news__bottomImage bg-primary-lighter">
-                <h3 class="uppercase text-primary text-sm mx-3">Latest</h3>
-                <div class="flex justify-between">
-                  <a href="#">
-                    <h4
-                      class="text-primary font-medium-bold news__title text-xs mx-3"
-                    >
-                      Elon Musk eclipses Bill Gates to become the world's second
-                      richest person
+              </a>
+              <div class="mt-1">
+                <div class="flex items-center bg-primary-lighter">
+                  <div>
+                    <h3 class="uppercase text-primary text-xs font-medium mx-3">Latest</h3>
+                    <h4 class="text-primary font-semibold news__title text-xs mx-3">
+                      <a href="#" class="block">
+                        Elon Musk eclipses Bill Gates to become the world's second richest person
+                      </a>
                     </h4>
-                  </a>
-                  <a href="#">
+                  </div>
+                  <a href="#" class="block flex-shrink-0">
                     <img
-                      class="news__image"
+                      class="news__image flex-shrink-0"
                       src="data:image/jpeg;base64,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"
                       alt=""
                     />
@@ -505,74 +499,78 @@
               </div>
               <div>
                 <ul class="news__list flex flex-column">
-                  <li class="my-3 text-xs news-hover">
-                    Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                  <li class="my-3 text-xs news-list">
+                    <span class="ml-1">
+                      Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Big Pharma's COVID-19 vaccines injected $1 trillion into the
-                    S&P 500
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Big Pharma's COVID-19 vaccines injected $1 trillion into the S&P 500
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Tencent bounces hard after President Xi spooks market into
-                    $200B
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Tencent bounces hard after President Xi spooks market into $200B
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Warren Buffett might've just sold $5B worth of Apple stock
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Warren Buffett might've just sold $5B worth of Apple stock
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
                 </ul>
               </div>
             </div>
-            <div class="news__page">
+            <div class="md:col-span-1">
               <a href="#" class="section__header">
-                <h2 class="section__title my-3">Apps</h2>
-                <i class="fas fa-chevron-right section__title-icon"></i>
+                <h2 class="section__title my-3">
+                  Apps
+                  <i class="fas fa-chevron-right section__title-icon"></i>
+                </h2>
               </a>
-              <div class="card__featured">
-                <div class="card__overlay"></div>
-                <a href="#" class="card__link"></a>
-                <img
-                  src="./assets/featured-2.png"
-                  alt=""
-                  class="card__featured-box"
-                />
-                <div class="card__meta-container">
-                  <span class="card__featured-category"> MOST POPULAR</span>
-                  <h3 class="card__featured-title underline-gray">
-                    Square stock on fire: Jack Dorsey's beard sets 3 share price
-                    records in 3 days
-                  </h3>
-                  <div class="card__featured-meta">
-                    <span class="underline-gray">David Canellis</span>
-                    <span class="flex items-center">
-                      <i class="far fa-clock text-xs"></i>
-                      <span class="ml-1"> 10 hours ago </span>
-                    </span>
+              <a href="#">
+                <div class="card__featured">
+                  <div class="card__overlay"></div>
+                  <img src="./assets/featured-2.png" alt="" class="card__featured-box" />
+                  <div class="card__meta-container">
+                    <span class="card__featured-category">Most popular</span>
+                    <h3 class="card__featured-title hover:underline">
+                      Square stock on fire: Jack Dorsey's beard sets 3 share price records in 3 days
+                    </h3>
+                    <div class="card__featured-meta">
+                      <span class="hover:text-white">David Canellis</span>
+                      <span class="flex items-center">
+                        <i class="far fa-clock text-xs"></i>
+                        <span class="ml-1"> 10 hours ago </span>
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="news__bottomImage bg-primary-lighter">
-                <h3 class="uppercase text-primary text-sm mx-3">Latest</h3>
-                <div class="flex justify-between">
-                  <a href="#">
-                    <h4
-                      class="text-primary font-medium-bold news__title text-xs mx-3"
-                    >
-                      Elon Musk eclipses Bill Gates to become the world's second
-                      richest person
+              </a>
+              <div class="mt-1">
+                <div class="flex items-center bg-primary-lighter">
+                  <div>
+                    <h3 class="uppercase text-primary text-xs font-medium mx-3">Latest</h3>
+                    <h4 class="text-primary font-semibold news__title text-xs mx-3">
+                      <a href="#" class="block">
+                        Elon Musk eclipses Bill Gates to become the world's second richest person
+                      </a>
                     </h4>
-                  </a>
-                  <a href="#">
+                  </div>
+                  <a href="#" class="block flex-shrink-0">
                     <img
-                      class="news__image"
+                      class="news__image flex-shrink-0"
                       src="data:image/jpeg;base64,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"
                       alt=""
                     />
@@ -581,74 +579,78 @@
               </div>
               <div>
                 <ul class="news__list flex flex-column">
-                  <li class="my-3 text-xs news-hover">
-                    Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                  <li class="my-3 text-xs news-list">
+                    <span class="ml-1">
+                      Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Big Pharma's COVID-19 vaccines injected $1 trillion into the
-                    S&P 500
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Big Pharma's COVID-19 vaccines injected $1 trillion into the S&P 500
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Tencent bounces hard after President Xi spooks market into
-                    $200B
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Tencent bounces hard after President Xi spooks market into $200B
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Warren Buffett might've just sold $5B worth of Apple stock
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Warren Buffett might've just sold $5B worth of Apple stock
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
                 </ul>
               </div>
             </div>
-            <div class="news__page">
+            <div class="md:col-span-1">
               <a href="#" class="section__header">
-                <h2 class="section__title my-3">Gear</h2>
-                <i class="fas fa-chevron-right section__title-icon"></i>
+                <h2 class="section__title my-3">
+                  Hard Fork
+                  <i class="fas fa-chevron-right section__title-icon"></i>
+                </h2>
               </a>
-              <div class="card__featured">
-                <div class="card__overlay"></div>
-                <a href="#" class="card__link"></a>
-                <img
-                  src="./assets/featured-2.png"
-                  alt=""
-                  class="card__featured-box"
-                />
-                <div class="card__meta-container">
-                  <span class="card__featured-category"> MOST POPULAR</span>
-                  <h3 class="card__featured-title underline-gray">
-                    Square stock on fire: Jack Dorsey's beard sets 3 share price
-                    records in 3 days
-                  </h3>
-                  <div class="card__featured-meta">
-                    <span class="underline-gray">David Canellis</span>
-                    <span class="flex items-center">
-                      <i class="far fa-clock text-xs"></i>
-                      <span class="ml-1"> 10 hours ago </span>
-                    </span>
+              <a href="#">
+                <div class="card__featured">
+                  <div class="card__overlay"></div>
+                  <img src="./assets/featured-2.png" alt="" class="card__featured-box" />
+                  <div class="card__meta-container">
+                    <span class="card__featured-category">Most popular</span>
+                    <h3 class="card__featured-title hover:underline">
+                      Square stock on fire: Jack Dorsey's beard sets 3 share price records in 3 days
+                    </h3>
+                    <div class="card__featured-meta">
+                      <span class="hover:text-white">David Canellis</span>
+                      <span class="flex items-center">
+                        <i class="far fa-clock text-xs"></i>
+                        <span class="ml-1"> 10 hours ago </span>
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="news__bottomImage bg-primary-lighter">
-                <h3 class="uppercase text-primary text-sm mx-3">Latest</h3>
-                <div class="flex justify-between">
-                  <a href="#">
-                    <h4
-                      class="text-primary font-medium-bold news__title text-xs mx-3"
-                    >
-                      Elon Musk eclipses Bill Gates to become the world's second
-                      richest person
+              </a>
+              <div class="mt-1">
+                <div class="flex items-center bg-primary-lighter">
+                  <div>
+                    <h3 class="uppercase text-primary text-xs font-medium mx-3">Latest</h3>
+                    <h4 class="text-primary font-semibold news__title text-xs mx-3">
+                      <a href="#" class="block">
+                        Elon Musk eclipses Bill Gates to become the world's second richest person
+                      </a>
                     </h4>
-                  </a>
-                  <a href="#">
+                  </div>
+                  <a href="#" class="block flex-shrink-0">
                     <img
-                      class="news__image"
+                      class="news__image flex-shrink-0"
                       src="data:image/jpeg;base64,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"
                       alt=""
                     />
@@ -657,74 +659,78 @@
               </div>
               <div>
                 <ul class="news__list flex flex-column">
-                  <li class="my-3 text-xs news-hover">
-                    Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                  <li class="my-3 text-xs news-list">
+                    <span class="ml-1">
+                      Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Big Pharma's COVID-19 vaccines injected $1 trillion into the
-                    S&P 500
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Big Pharma's COVID-19 vaccines injected $1 trillion into the S&P 500
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Tencent bounces hard after President Xi spooks market into
-                    $200B
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Tencent bounces hard after President Xi spooks market into $200B
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Warren Buffett might've just sold $5B worth of Apple stock
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Warren Buffett might've just sold $5B worth of Apple stock
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
                 </ul>
               </div>
             </div>
-            <div class="news__page">
+            <div class="md:col-span-1">
               <a href="#" class="section__header">
-                <h2 class="section__title my-3">Tech</h2>
-                <i class="fas fa-chevron-right section__title-icon"></i>
+                <h2 class="section__title my-3">
+                  Hard Fork
+                  <i class="fas fa-chevron-right section__title-icon"></i>
+                </h2>
               </a>
-              <div class="card__featured">
-                <div class="card__overlay"></div>
-                <a href="#" class="card__link"></a>
-                <img
-                  src="./assets/featured-2.png"
-                  alt=""
-                  class="card__featured-box"
-                />
-                <div class="card__meta-container">
-                  <span class="card__featured-category"> MOST POPULAR</span>
-                  <h3 class="card__featured-title underline-gray">
-                    Square stock on fire: Jack Dorsey's beard sets 3 share price
-                    records in 3 days
-                  </h3>
-                  <div class="card__featured-meta">
-                    <span class="underline-gray">David Canellis</span>
-                    <span class="flex items-center">
-                      <i class="far fa-clock text-xs"></i>
-                      <span class="ml-1"> 10 hours ago </span>
-                    </span>
+              <a href="#">
+                <div class="card__featured">
+                  <div class="card__overlay"></div>
+                  <img src="./assets/featured-2.png" alt="" class="card__featured-box" />
+                  <div class="card__meta-container">
+                    <span class="card__featured-category">Most popular</span>
+                    <h3 class="card__featured-title hover:underline">
+                      Square stock on fire: Jack Dorsey's beard sets 3 share price records in 3 days
+                    </h3>
+                    <div class="card__featured-meta">
+                      <span class="hover:text-white">David Canellis</span>
+                      <span class="flex items-center">
+                        <i class="far fa-clock text-xs"></i>
+                        <span class="ml-1"> 10 hours ago </span>
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="news__bottomImage bg-primary-lighter">
-                <h3 class="uppercase text-primary text-sm mx-3">Latest</h3>
-                <div class="flex justify-between">
-                  <a href="#">
-                    <h4
-                      class="text-primary font-medium-bold news__title text-xs mx-3"
-                    >
-                      Elon Musk eclipses Bill Gates to become the world's second
-                      richest person
+              </a>
+              <div class="mt-1">
+                <div class="flex items-center bg-primary-lighter">
+                  <div>
+                    <h3 class="uppercase text-primary text-xs font-medium mx-3">Latest</h3>
+                    <h4 class="text-primary font-semibold news__title text-xs mx-3">
+                      <a href="#" class="block">
+                        Elon Musk eclipses Bill Gates to become the world's second richest person
+                      </a>
                     </h4>
-                  </a>
-                  <a href="#">
+                  </div>
+                  <a href="#" class="block flex-shrink-0">
                     <img
-                      class="news__image"
+                      class="news__image flex-shrink-0"
                       src="data:image/jpeg;base64,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"
                       alt=""
                     />
@@ -733,74 +739,78 @@
               </div>
               <div>
                 <ul class="news__list flex flex-column">
-                  <li class="my-3 text-xs news-hover">
-                    Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                  <li class="my-3 text-xs news-list">
+                    <span class="ml-1">
+                      Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Big Pharma's COVID-19 vaccines injected $1 trillion into the
-                    S&P 500
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Big Pharma's COVID-19 vaccines injected $1 trillion into the S&P 500
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Tencent bounces hard after President Xi spooks market into
-                    $200B
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Tencent bounces hard after President Xi spooks market into $200B
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Warren Buffett might've just sold $5B worth of Apple stock
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Warren Buffett might've just sold $5B worth of Apple stock
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
                 </ul>
               </div>
             </div>
-            <div class="news__page">
+            <div class="md:col-span-1">
               <a href="#" class="section__header">
-                <h2 class="section__title my-3">Creative</h2>
-                <i class="fas fa-chevron-right section__title-icon"></i>
+                <h2 class="section__title my-3">
+                  Hard Fork
+                  <i class="fas fa-chevron-right section__title-icon"></i>
+                </h2>
               </a>
-              <div class="card__featured">
-                <div class="card__overlay"></div>
-                <a href="#" class="card__link"></a>
-                <img
-                  src="./assets/featured-2.png"
-                  alt=""
-                  class="card__featured-box"
-                />
-                <div class="card__meta-container">
-                  <span class="card__featured-category"> MOST POPULAR</span>
-                  <h3 class="card__featured-title underline-gray">
-                    Graphic design apps are now as fundamental as Excel — here's
-                    how non-designers get up to speed
-                  </h3>
-                  <div class="card__featured-meta">
-                    <span class="underline-gray">David Canellis</span>
-                    <span class="flex items-center">
-                      <i class="far fa-clock text-xs"></i>
-                      <span class="ml-1"> 10 hours ago </span>
-                    </span>
+              <a href="#">
+                <div class="card__featured">
+                  <div class="card__overlay"></div>
+                  <img src="./assets/featured-2.png" alt="" class="card__featured-box" />
+                  <div class="card__meta-container">
+                    <span class="card__featured-category">Most popular</span>
+                    <h3 class="card__featured-title hover:underline">
+                      Square stock on fire: Jack Dorsey's beard sets 3 share price records in 3 days
+                    </h3>
+                    <div class="card__featured-meta">
+                      <span class="hover:text-white">David Canellis</span>
+                      <span class="flex items-center">
+                        <i class="far fa-clock text-xs"></i>
+                        <span class="ml-1"> 10 hours ago </span>
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="news__bottomImage bg-primary-lighter">
-                <h3 class="uppercase text-primary text-sm mx-3">Latest</h3>
-                <div class="flex justify-between">
-                  <a href="#">
-                    <h4
-                      class="text-primary font-medium-bold news__title text-xs mx-3"
-                    >
-                      Elon Musk eclipses Bill Gates to become the world's second
-                      richest person
+              </a>
+              <div class="mt-1">
+                <div class="flex items-center bg-primary-lighter">
+                  <div>
+                    <h3 class="uppercase text-primary text-xs font-medium mx-3">Latest</h3>
+                    <h4 class="text-primary font-semibold news__title text-xs mx-3">
+                      <a href="#" class="block">
+                        Elon Musk eclipses Bill Gates to become the world's second richest person
+                      </a>
                     </h4>
-                  </a>
-                  <a href="#">
+                  </div>
+                  <a href="#" class="block flex-shrink-0">
                     <img
-                      class="news__image"
+                      class="news__image flex-shrink-0"
                       src="data:image/jpeg;base64,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"
                       alt=""
                     />
@@ -809,74 +819,78 @@
               </div>
               <div>
                 <ul class="news__list flex flex-column">
-                  <li class="my-3 text-xs news-hover">
-                    Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                  <li class="my-3 text-xs news-list">
+                    <span class="ml-1">
+                      Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Big Pharma's COVID-19 vaccines injected $1 trillion into the
-                    S&P 500
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Big Pharma's COVID-19 vaccines injected $1 trillion into the S&P 500
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Tencent bounces hard after President Xi spooks market into
-                    $200B
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Tencent bounces hard after President Xi spooks market into $200B
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Warren Buffett might've just sold $5B worth of Apple stock
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Warren Buffett might've just sold $5B worth of Apple stock
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
                 </ul>
               </div>
             </div>
-            <div class="news__page">
+            <div class="md:col-span-1">
               <a href="#" class="section__header">
-                <h2 class="section__title my-3">Podium</h2>
-                <i class="fas fa-chevron-right section__title-icon"></i>
+                <h2 class="section__title my-3">
+                  Hard Fork
+                  <i class="fas fa-chevron-right section__title-icon"></i>
+                </h2>
               </a>
-              <div class="card__featured">
-                <div class="card__overlay"></div>
-                <a href="#" class="card__link"></a>
-                <img
-                  src="./assets/featured-2.png"
-                  alt=""
-                  class="card__featured-box"
-                />
-                <div class="card__meta-container">
-                  <span class="card__featured-category"> MOST POPULAR</span>
-                  <h3 class="card__featured-title underline-gray">
-                    Google still abuses its search monopoly in the EU —
-                    regulators wake up!
-                  </h3>
-                  <div class="card__featured-meta">
-                    <span class="underline-gray">David Canellis</span>
-                    <span class="flex items-center">
-                      <i class="far fa-clock text-xs"></i>
-                      <span class="ml-1"> 10 hours ago </span>
-                    </span>
+              <a href="#">
+                <div class="card__featured">
+                  <div class="card__overlay"></div>
+                  <img src="./assets/featured-2.png" alt="" class="card__featured-box" />
+                  <div class="card__meta-container">
+                    <span class="card__featured-category">Most popular</span>
+                    <h3 class="card__featured-title hover:underline">
+                      Square stock on fire: Jack Dorsey's beard sets 3 share price records in 3 days
+                    </h3>
+                    <div class="card__featured-meta">
+                      <span class="hover:text-white">David Canellis</span>
+                      <span class="flex items-center">
+                        <i class="far fa-clock text-xs"></i>
+                        <span class="ml-1"> 10 hours ago </span>
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="news__bottomImage bg-primary-lighter">
-                <h3 class="uppercase text-primary text-sm mx-3">Latest</h3>
-                <div class="flex justify-between">
-                  <a href="#">
-                    <h4
-                      class="text-primary font-medium-bold news__title text-xs mx-3"
-                    >
-                      Elon Musk eclipses Bill Gates to become the world's second
-                      richest person
+              </a>
+              <div class="mt-1">
+                <div class="flex items-center bg-primary-lighter">
+                  <div>
+                    <h3 class="uppercase text-primary text-xs font-medium mx-3">Latest</h3>
+                    <h4 class="text-primary font-semibold news__title text-xs mx-3">
+                      <a href="#" class="block">
+                        Elon Musk eclipses Bill Gates to become the world's second richest person
+                      </a>
                     </h4>
-                  </a>
-                  <a href="#">
+                  </div>
+                  <a href="#" class="block flex-shrink-0">
                     <img
-                      class="news__image"
+                      class="news__image flex-shrink-0"
                       src="data:image/jpeg;base64,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"
                       alt=""
                     />
@@ -885,74 +899,78 @@
               </div>
               <div>
                 <ul class="news__list flex flex-column">
-                  <li class="my-3 text-xs news-hover">
-                    Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                  <li class="my-3 text-xs news-list">
+                    <span class="ml-1">
+                      Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Big Pharma's COVID-19 vaccines injected $1 trillion into the
-                    S&P 500
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Big Pharma's COVID-19 vaccines injected $1 trillion into the S&P 500
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Tencent bounces hard after President Xi spooks market into
-                    $200B
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Tencent bounces hard after President Xi spooks market into $200B
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Warren Buffett might've just sold $5B worth of Apple stock
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Warren Buffett might've just sold $5B worth of Apple stock
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
                 </ul>
               </div>
             </div>
-            <div class="news__page">
+            <div class="md:col-span-1">
               <a href="#" class="section__header">
-                <h2 class="section__title my-3">Insights</h2>
-                <i class="fas fa-chevron-right section__title-icon"></i>
+                <h2 class="section__title my-3">
+                  Hard Fork
+                  <i class="fas fa-chevron-right section__title-icon"></i>
+                </h2>
               </a>
-              <div class="card__featured">
-                <div class="card__overlay"></div>
-                <a href="#" class="card__link"></a>
-                <img
-                  src="./assets/featured-2.png"
-                  alt=""
-                  class="card__featured-box"
-                />
-                <div class="card__meta-container">
-                  <span class="card__featured-category"> MOST POPULAR</span>
-                  <h3 class="card__featured-title underline-gray">
-                    Maths has revealed how the COVID-19 vaccine should be
-                    distributed
-                  </h3>
-                  <div class="card__featured-meta">
-                    <span class="underline-gray">David Canellis</span>
-                    <span class="flex items-center">
-                      <i class="far fa-clock text-xs"></i>
-                      <span class="ml-1"> 10 hours ago </span>
-                    </span>
+              <a href="#">
+                <div class="card__featured">
+                  <div class="card__overlay"></div>
+                  <img src="./assets/featured-2.png" alt="" class="card__featured-box" />
+                  <div class="card__meta-container">
+                    <span class="card__featured-category">Most popular</span>
+                    <h3 class="card__featured-title hover:underline">
+                      Square stock on fire: Jack Dorsey's beard sets 3 share price records in 3 days
+                    </h3>
+                    <div class="card__featured-meta">
+                      <span class="hover:text-white">David Canellis</span>
+                      <span class="flex items-center">
+                        <i class="far fa-clock text-xs"></i>
+                        <span class="ml-1"> 10 hours ago </span>
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="news__bottomImage bg-primary-lighter">
-                <h3 class="uppercase text-primary text-sm mx-3">Latest</h3>
-                <div class="flex justify-between">
-                  <a href="#">
-                    <h4
-                      class="text-primary font-medium-bold news__title text-xs mx-3"
-                    >
-                      Elon Musk eclipses Bill Gates to become the world's second
-                      richest person
+              </a>
+              <div class="mt-1">
+                <div class="flex items-center bg-primary-lighter">
+                  <div>
+                    <h3 class="uppercase text-primary text-xs font-medium mx-3">Latest</h3>
+                    <h4 class="text-primary font-semibold news__title text-xs mx-3">
+                      <a href="#" class="block">
+                        Elon Musk eclipses Bill Gates to become the world's second richest person
+                      </a>
                     </h4>
-                  </a>
-                  <a href="#">
+                  </div>
+                  <a href="#" class="block flex-shrink-0">
                     <img
-                      class="news__image"
+                      class="news__image flex-shrink-0"
                       src="data:image/jpeg;base64,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"
                       alt=""
                     />
@@ -961,73 +979,78 @@
               </div>
               <div>
                 <ul class="news__list flex flex-column">
-                  <li class="my-3 text-xs news-hover">
-                    Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                  <li class="my-3 text-xs news-list">
+                    <span class="ml-1">
+                      Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Big Pharma's COVID-19 vaccines injected $1 trillion into the
-                    S&P 500
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Big Pharma's COVID-19 vaccines injected $1 trillion into the S&P 500
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Tencent bounces hard after President Xi spooks market into
-                    $200B
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Tencent bounces hard after President Xi spooks market into $200B
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Warren Buffett might've just sold $5B worth of Apple stock
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Warren Buffett might've just sold $5B worth of Apple stock
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
                 </ul>
               </div>
             </div>
-            <div class="news__page">
+            <div class="md:col-span-1">
               <a href="#" class="section__header">
-                <h2 class="section__title my-3">Launch</h2>
-                <i class="fas fa-chevron-right section__title-icon"></i>
+                <h2 class="section__title my-3">
+                  Hard Fork
+                  <i class="fas fa-chevron-right section__title-icon"></i>
+                </h2>
               </a>
-              <div class="card__featured">
-                <div class="card__overlay"></div>
-                <a href="#" class="card__link"></a>
-                <img
-                  src="./assets/featured-2.png"
-                  alt=""
-                  class="card__featured-box"
-                />
-                <div class="card__meta-container">
-                  <span class="card__featured-category"> MOST POPULAR</span>
-                  <h3 class="card__featured-title underline-gray">
-                    I’ve fallen for the electric Hummer and I hate myself for it
-                  </h3>
-                  <div class="card__featured-meta">
-                    <span class="underline-gray">David Canellis</span>
-                    <span class="flex items-center">
-                      <i class="far fa-clock text-xs"></i>
-                      <span class="ml-1"> 10 hours ago </span>
-                    </span>
+              <a href="#">
+                <div class="card__featured">
+                  <div class="card__overlay"></div>
+                  <img src="./assets/featured-2.png" alt="" class="card__featured-box" />
+                  <div class="card__meta-container">
+                    <span class="card__featured-category">Most popular</span>
+                    <h3 class="card__featured-title hover:underline">
+                      Square stock on fire: Jack Dorsey's beard sets 3 share price records in 3 days
+                    </h3>
+                    <div class="card__featured-meta">
+                      <span class="hover:text-white">David Canellis</span>
+                      <span class="flex items-center">
+                        <i class="far fa-clock text-xs"></i>
+                        <span class="ml-1"> 10 hours ago </span>
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="news__bottomImage bg-primary-lighter">
-                <h3 class="uppercase text-primary text-sm mx-3">Latest</h3>
-                <div class="flex justify-between">
-                  <a href="#">
-                    <h4
-                      class="text-primary font-medium-bold news__title text-xs mx-3"
-                    >
-                      Elon Musk eclipses Bill Gates to become the world's second
-                      richest person
+              </a>
+              <div class="mt-1">
+                <div class="flex items-center bg-primary-lighter">
+                  <div>
+                    <h3 class="uppercase text-primary text-xs font-medium mx-3">Latest</h3>
+                    <h4 class="text-primary font-semibold news__title text-xs mx-3">
+                      <a href="#" class="block">
+                        Elon Musk eclipses Bill Gates to become the world's second richest person
+                      </a>
                     </h4>
-                  </a>
-                  <a href="#">
+                  </div>
+                  <a href="#" class="block flex-shrink-0">
                     <img
-                      class="news__image"
+                      class="news__image flex-shrink-0"
                       src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAwJCRcVEhcXFRcXGBgXHx0fHR0YHRogIB0eJR0lJyAdIB8nLT0xJyk4Kh8gMkk1OD5AREVEJTBMUktCUjxDRUEBDQ4OFBETJRUVJUEnJydBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRUFBQUFBQUFBQUFBQUFBQf/AABEIALcBEwMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABAECAwUGBwj/xAA8EAACAQMBBgQDBQYFBQAAAAAAAQIDBBEhBRIxQVFhBiJxkROBwQcyQqGxFVJi0eHwFCMkJfEzcpKywv/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAIhEBAQACAgICAgMAAAAAAAAAAAECESExAxJBUTJhIkJS/9oADAMBAAIRAxEAPwDywAFUAAAAAAAAAAAAAAAAALorIFoM1C2nUluwi2zeW3hvh8SWeyyvz5ktkNOfjFvgjL/hKm7vbksdcM6uGz6UHoorPPmvXJKnXUI6YZi5teriVQlup4eG8ZMWDs3dU5JpxWHxX819TDLZttV4ZjPm09H3aEzhca5M9U8KL/RUvQ4aXhqeXuzhJcnnHudpse7jb21OnPLcVh7uGvc17RnVdJAzI1NHblB8ZOP/AHJ49zZ0a8ZrMZRkuzTLtnTMi5IIqkUCoKlAqUKgVKlEVAqVKAD54ABGgAAAAAAAAAAAAAAAAn7MslVqJTeIJ+Z/QiUob0klxZ01haQpx3sSnz1WI5xyXMzldRZN1N+FCjHypJfm++SN+0tMa4Il1dSbaxp01wQ5TxxWMnHt14TKtznv3yRpVn1ZW1tZ15Ypx+Z0Vn4Qm45m8PoXiGrXMuq+TZbG6muGmDu4eFYLjj2Kz8OUuhPaNelcV+0JYT919USFthxWuv8AfM31fw3H8Jp57O+G29fTqWWMWWENpwm1ruszwuqlJ5i1jqvKyBXilyyu/FfMwTq7scx3unb0aLIzt19n4rqRxvxcl+fudXs3alO4jmD1XGL0aPIad248M+iSSJ9ntyUJprMZL8UdH80blsZsj13BU1ux9qq4pp/iSi5Y55WjXszYuRq5SdsaVKgqjQFShUCoAA+dwARoAAAAAAAAAAAAAAABItJedcNTq41k6e7HX5t6nHwWuTqNm18LEmstLP8AQ55t4Mde3a1fPgXbK2HO5qZae4n7km3Tubj4dPXOnoubPR9lbKVKEUlwOXTtJtF2fsWFGCUYkqawbOccIg1YZM2OmNiLIjTZJqQMElgy0j1XhM5zaNdZaenqm0by7i2tHqcze53tTcccmsuYe3bVEL4bWfobCUcJlkqawdHPSDva8/76GNRy86pmepSMCjxyajNjZ7O2nUoyjuTaSefbTD6rsenbOuo3FPfi03zxyfQ8hp1Gpp8jqvBu0VSuJQk3uze78391/T5mc8Jn+Sb109DpPQvLI/eZeb8f46+mL2FShVHRFQAB87gAjQAAAAAAAIAAKAAAAAKpk23vd15eqIJUlm1lenfZ5ZJwq1uLlLci+yw3+q9j0BPGDkfs8p/7dTfWU/8A2/odW3qcfl6J1FtaREk1ksv9p06a1eX0RqIbZUsvTHzM1qNlVnqRZzIkto55F0auTLa6aTWqIV1YKfqTS1sJZtyVzauLZhjT0N5fQ1Zq5U+hvblpr69Eh1qOnozdStJSxu5bJcdiR3f82ooPokn7l9tHpb05Rw8zJdovOnlpaPK7Pj66C+2fKhPEmpRlndkuEl/PsLeLbXJs3tyssev05Zxz0WvUykazpOEIRfKKX5EoeK2y7+3PIAB1RUAAfO4AI0AAAAAAAAAAAAAAAAFShkobu/He+7lZ9APaPClH4OzreL0e7vP1k2/qbKvXwjQbNtrieJqS+HhYzwxjQ3Ev+lmXFdDz2vZjGhp7PVxXk5t4WpspqjGOItadEa+nvOpJQwlLGr4ceHsZXYuTxKU6jfJZjBdsGY1YwOcXLytZJ1Ghplkm32ZTprWEM+miKV7r0x0RKsRK1TDMUZlKrzqWxRGke/j5MmstqTm/Q3VWnvLAt7ZR4GnKzlhyqUG3hYWr6cl+osbJpTU9U+Bh2mnlp/dnHR90y/w/NuDhJt7mcZ6GXWdMF9s1Tt6sVxinOPZpa+6OdslmcPVL88HU7TuNyhWf7y3F6y/oc7sS3+JWpx/jWfk8nXF5vN29UitfkXlkOZedcOnmoADaKgAD53ABGgAAAAAAAAAAAAAAAAAAeh+GPEL/AMEqTU6lSEnGMY6ZT1TcuSR1NeTjSjB8ceb156nC/Z1bud3OTeIwh8strH5JnY7Qn5msriefOcvd4OYyWmMpNaZN7FLkcwk4LKllo2lneupDe6aMzG8p8pN1E1FWWpOubrQ1U62WxSLpzEUWQeTJBERXdK02N4pGRWUa8tpVnGOUoLVvmn6F9ta/CTjDLzxkyRTlHXLxqZJVd5YXBGWunMbcrPejT5LV95FPC0MXiXTeaMW2l/nLJL8KxzdxfaR0/rw8ud3XoMFoXAHfGamnnoADQqCgA+eAARoAAAAAAAAAAAAAAAAAAHf/AGcU807rGjzTw/lIl7ZpVVlyUqaTeZR1T+a4Gr+zu8Ualek3rOMZLvut5/KR3KrR3ZObSguOTz59vb4b/Fx2xtmxn51Kf/k/0OrtKapxUYrT++LIH7SW842dD4nWXCEfV8ERbi6u28ZortHLS+eCOum3uLTf4Sw+xip7Nws72VlrPf8AtkSwoXMppzlHd/hX1Zt7iahBRzwy36viZrH6a+EEs+rK5KZxH1ZHdR5IqRKRjT1MbqopGWpplLVJPXGpdTMdKehdBgc94gg1PPIu8JTxcwXaX6Gy2xbb9PPToarYEXTvKT6vd90a+NPPnHpIKg9EedQAFAAAfPAAI0AAAAAAAAAAAAAAAAAADPZ3c6NSNSm8Si8p/R9j0yxuI31vQqOPk35KrDP4ktE3zWce55Ydz9nl9HNa3n+LFSHqtJL2x7HPOcbdfFnZk6ypW3VuJKMVwjHReyLKFrl7816I2VKyjnewZas4qWMnGvV7I1GecrD+hDuINslXd9uLy4NLU2r5teJnSbSqscEKpIrO5zzI0p5LIu1XPJcpkdywzKpGmUyjMlQZr4vQl05mVSJLKNfex3IyqU0viU1vRysreWqyiZ8QiXDcvLFNt8l+rfJCMZThr9mfaTUckrijBrm6eU133XnP5HoFtcRq041KbUoTWU1zR4rfVk5KCcZbmVvx/Fr15pHd/Z9tRSpTt5PzQblDvF8UvR/qeuPHY7MFQVFAAB88AAjQAAAAAAAAAAAAAAAAAABkoV5U5xnBuMovKa5MxgD2LY+1HXtKNR8ZLEscpJ4ZjubjDb9tTgfD/iJ2ydOWXB6r+F89OjOgW0N/VYaaymuDOGWOq9OHk3NMt3eylNej9DApZ5Zf95CoOT1+Rn+B/wAEVjj2TMjL1AxThhk21FOJliyymjIiNLoPLJdPOC+xsZTfljl/kvV8jcxtKdFZnicl1+6vlz+ZZjazlnMe2to2UpLfm9yHHefFrsvqch4g8QqadC28tLhOXOp6voZvE/iaVdulTl5PxNfi7LscoztjjI8uWdyEyZs+8nRqxqU3uyg8p/z7ENF8UbYe27J2lG6t4Vo6by1XSS4omnPeBqcVs+Di8uUpuXaWcY9kvc6IqKAAD53ABGgAAAAAAAAAAAAAAAAAAAAAJVnf1KLzB/J6p/IikizsqlepGnShKc5PCjFasg3lt4pl5YukpN6eRtNvksHa1NnVqdGFSrS3N7XdbTcOiljgSvC3g+ls+KrV92rc40xrGn2j1f8AF7Gyu7pzzk55SO3jyytcq6nQxTRsLux3XvRXllr6djLY7Dq19Ut2HOctF8uvyOU5ei2SbrU0ouUsJHR2Hh54U63kXT8T/kbS2s6NsvIt6f78uPyXIsq3LfE6TD7efLy/5X1a0acd2CUV0R554o8RublRpPyrSclz/hXYl+J/EOM0aMvM9JyX4V+6n1OKZ104LWy0uaLlFLVlFqRbv54GOpVzoi6lADo/C/iOVlU1zKlPG/H/AOo9/wBT1i0u6denGpSkpwlwa/R9H2PDIm12Nt6tZ1N6k/K/vQf3Zeq69yo9kwDm7fx1ZyhFzlKEmtYuMnh+qWGAPGQARoAAAAAAAAAAAAAAAAAAAFYxzoiXStMfe1fT+YRHp0XLh7nXeBt2jfxzVUHUjKGXzbxhJ8nlJ/LHM0eDHUlgUex1JycnGbxNPXo/QK1ytdF+b9EY7H/UWtpVk9Z0ob0n2STfqT5xz9Oy5I5+v26e+pwpZQpxW7KG+tdZ64fpwM1xcyloRXSWTOopruv06mpGLbe0aUTmPFe2PhQ+DTlipP72Pwxx15Nm627tmFnS3nh1Jfch1fV9keXXNxKrOU5tuUnlvqyxEWZRRFWaXEwu6xwKJCp6ZZFrVc6IpK5b0McVlgX0oZJcYFaNPCMoFqiX4RbkFF/wu69wY8lANWACKAAAAAAAAAAAAAAAAFUsvAAE+jSUfVmdvkUBWVsngiykASq9u8J0/wDbrdPlCKXy/q2bWtsyEteD7AEEb9nbnN69yLtfaULK3dWSb5KP70nwTfJABXkW0NoVLirKpVeZP2S5JLkiNEA0ytrxi1ryNeoagEVmhRJNOikVBUZSjYAVQNgAUyAAj//Z"
                       alt=""
                     />
@@ -1036,72 +1059,78 @@
               </div>
               <div>
                 <ul class="news__list flex flex-column">
-                  <li class="my-3 text-xs news-hover">
-                    Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                  <li class="my-3 text-xs news-list">
+                    <span class="ml-1">
+                      Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Big Pharma's COVID-19 vaccines injected $1 trillion into the
-                    S&P 500
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Big Pharma's COVID-19 vaccines injected $1 trillion into the S&P 500
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Tencent bounces hard after President Xi spooks market into
-                    $200B
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Tencent bounces hard after President Xi spooks market into $200B
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Warren Buffett might've just sold $5B worth of Apple stock
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Warren Buffett might've just sold $5B worth of Apple stock
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
                 </ul>
               </div>
             </div>
-            <div class="news__page">
+            <div class="md:col-span-1">
               <a href="#" class="section__header">
-                <h2 class="section__title my-3">Distract</h2>
-                <i class="fas fa-chevron-right section__title-icon"></i>
+                <h2 class="section__title my-3">
+                  Hard Fork
+                  <i class="fas fa-chevron-right section__title-icon"></i>
+                </h2>
               </a>
-              <div class="card__featured">
-                <div class="card__overlay"></div>
-                <a href="#" class="card__link"></a>
-                <img
-                  src="./assets/featured-2.png"
-                  alt=""
-                  class="card__featured-box"
-                />
-                <div class="card__meta-container">
-                  <span class="card__featured-category"> MOST POPULAR</span>
-                  <h3 class="card__featured-title underline-gray">
-                    Lucid has the most beautiful car configurator I've ever seen
-                  </h3>
-                  <div class="card__featured-meta">
-                    <span class="underline-gray">David Canellis</span>
-                    <span class="flex items-center">
-                      <i class="far fa-clock text-xs"></i>
-                      <span class="ml-1"> 10 hours ago </span>
-                    </span>
+              <a href="#">
+                <div class="card__featured">
+                  <div class="card__overlay"></div>
+                  <img src="./assets/featured-2.png" alt="" class="card__featured-box" />
+                  <div class="card__meta-container">
+                    <span class="card__featured-category">Most popular</span>
+                    <h3 class="card__featured-title hover:underline">
+                      Square stock on fire: Jack Dorsey's beard sets 3 share price records in 3 days
+                    </h3>
+                    <div class="card__featured-meta">
+                      <span class="hover:text-white">David Canellis</span>
+                      <span class="flex items-center">
+                        <i class="far fa-clock text-xs"></i>
+                        <span class="ml-1"> 10 hours ago </span>
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="news__bottomImage bg-primary-lighter">
-                <h3 class="uppercase text-primary text-sm mx-3">Latest</h3>
-                <div class="flex justify-between">
-                  <a href="#">
-                    <h4
-                      class="text-primary font-medium-bold news__title text-xs mx-3"
-                    >
-                      Elon Musk eclipses Bill Gates to become the world's second
-                      richest person
+              </a>
+              <div class="mt-1">
+                <div class="flex items-center bg-primary-lighter">
+                  <div>
+                    <h3 class="uppercase text-primary text-xs font-medium mx-3">Latest</h3>
+                    <h4 class="text-primary font-semibold news__title text-xs mx-3">
+                      <a href="#" class="block">
+                        Elon Musk eclipses Bill Gates to become the world's second richest person
+                      </a>
                     </h4>
-                  </a>
-                  <a href="#">
+                  </div>
+                  <a href="#" class="block flex-shrink-0">
                     <img
-                      class="news__image"
+                      class="news__image flex-shrink-0"
                       src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAwJCRcVEhcXFRcXGBgXHx0fHR0YHRogIB0eJR0lJyAdIB8nLT0xJyk4Kh8gMkk1OD5AREVEJTBMUktCUjxDRUEBDQ4OFBETJRUVJUEnJydBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRUFBQUFBQUFBQUFBQUFBQf/AABEIALcBEwMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABAECAwUGBwj/xAA8EAACAQMBBgQDBQYFBQAAAAAAAQIDBBEhBRIxQVFhBiJxkROBwQcyQqGxFVJi0eHwFCMkJfEzcpKywv/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAIhEBAQACAgICAgMAAAAAAAAAAAECESExAxJBUTJhIkJS/9oADAMBAAIRAxEAPwDywAFUAAAAAAAAAAAAAAAAALorIFoM1C2nUluwi2zeW3hvh8SWeyyvz5ktkNOfjFvgjL/hKm7vbksdcM6uGz6UHoorPPmvXJKnXUI6YZi5teriVQlup4eG8ZMWDs3dU5JpxWHxX819TDLZttV4ZjPm09H3aEzhca5M9U8KL/RUvQ4aXhqeXuzhJcnnHudpse7jb21OnPLcVh7uGvc17RnVdJAzI1NHblB8ZOP/AHJ49zZ0a8ZrMZRkuzTLtnTMi5IIqkUCoKlAqUKgVKlEVAqVKAD54ABGgAAAAAAAAAAAAAAAAn7MslVqJTeIJ+Z/QiUob0klxZ01haQpx3sSnz1WI5xyXMzldRZN1N+FCjHypJfm++SN+0tMa4Il1dSbaxp01wQ5TxxWMnHt14TKtznv3yRpVn1ZW1tZ15Ypx+Z0Vn4Qm45m8PoXiGrXMuq+TZbG6muGmDu4eFYLjj2Kz8OUuhPaNelcV+0JYT919USFthxWuv8AfM31fw3H8Jp57O+G29fTqWWMWWENpwm1ruszwuqlJ5i1jqvKyBXilyyu/FfMwTq7scx3unb0aLIzt19n4rqRxvxcl+fudXs3alO4jmD1XGL0aPIad248M+iSSJ9ntyUJprMZL8UdH80blsZsj13BU1ux9qq4pp/iSi5Y55WjXszYuRq5SdsaVKgqjQFShUCoAA+dwARoAAAAAAAAAAAAAAABItJedcNTq41k6e7HX5t6nHwWuTqNm18LEmstLP8AQ55t4Mde3a1fPgXbK2HO5qZae4n7km3Tubj4dPXOnoubPR9lbKVKEUlwOXTtJtF2fsWFGCUYkqawbOccIg1YZM2OmNiLIjTZJqQMElgy0j1XhM5zaNdZaenqm0by7i2tHqcze53tTcccmsuYe3bVEL4bWfobCUcJlkqawdHPSDva8/76GNRy86pmepSMCjxyajNjZ7O2nUoyjuTaSefbTD6rsenbOuo3FPfi03zxyfQ8hp1Gpp8jqvBu0VSuJQk3uze78391/T5mc8Jn+Sb109DpPQvLI/eZeb8f46+mL2FShVHRFQAB87gAjQAAAAAAAIAAKAAAAAKpk23vd15eqIJUlm1lenfZ5ZJwq1uLlLci+yw3+q9j0BPGDkfs8p/7dTfWU/8A2/odW3qcfl6J1FtaREk1ksv9p06a1eX0RqIbZUsvTHzM1qNlVnqRZzIkto55F0auTLa6aTWqIV1YKfqTS1sJZtyVzauLZhjT0N5fQ1Zq5U+hvblpr69Eh1qOnozdStJSxu5bJcdiR3f82ooPokn7l9tHpb05Rw8zJdovOnlpaPK7Pj66C+2fKhPEmpRlndkuEl/PsLeLbXJs3tyssev05Zxz0WvUykazpOEIRfKKX5EoeK2y7+3PIAB1RUAAfO4AI0AAAAAAAAAAAAAAAAFShkobu/He+7lZ9APaPClH4OzreL0e7vP1k2/qbKvXwjQbNtrieJqS+HhYzwxjQ3Ev+lmXFdDz2vZjGhp7PVxXk5t4WpspqjGOItadEa+nvOpJQwlLGr4ceHsZXYuTxKU6jfJZjBdsGY1YwOcXLytZJ1Ghplkm32ZTprWEM+miKV7r0x0RKsRK1TDMUZlKrzqWxRGke/j5MmstqTm/Q3VWnvLAt7ZR4GnKzlhyqUG3hYWr6cl+osbJpTU9U+Bh2mnlp/dnHR90y/w/NuDhJt7mcZ6GXWdMF9s1Tt6sVxinOPZpa+6OdslmcPVL88HU7TuNyhWf7y3F6y/oc7sS3+JWpx/jWfk8nXF5vN29UitfkXlkOZedcOnmoADaKgAD53ABGgAAAAAAAAAAAAAAAAAAeh+GPEL/AMEqTU6lSEnGMY6ZT1TcuSR1NeTjSjB8ceb156nC/Z1bud3OTeIwh8strH5JnY7Qn5msriefOcvd4OYyWmMpNaZN7FLkcwk4LKllo2lneupDe6aMzG8p8pN1E1FWWpOubrQ1U62WxSLpzEUWQeTJBERXdK02N4pGRWUa8tpVnGOUoLVvmn6F9ta/CTjDLzxkyRTlHXLxqZJVd5YXBGWunMbcrPejT5LV95FPC0MXiXTeaMW2l/nLJL8KxzdxfaR0/rw8ud3XoMFoXAHfGamnnoADQqCgA+eAARoAAAAAAAAAAAAAAAAAAHf/AGcU807rGjzTw/lIl7ZpVVlyUqaTeZR1T+a4Gr+zu8Ualek3rOMZLvut5/KR3KrR3ZObSguOTz59vb4b/Fx2xtmxn51Kf/k/0OrtKapxUYrT++LIH7SW842dD4nWXCEfV8ERbi6u28ZortHLS+eCOum3uLTf4Sw+xip7Nws72VlrPf8AtkSwoXMppzlHd/hX1Zt7iahBRzwy36viZrH6a+EEs+rK5KZxH1ZHdR5IqRKRjT1MbqopGWpplLVJPXGpdTMdKehdBgc94gg1PPIu8JTxcwXaX6Gy2xbb9PPToarYEXTvKT6vd90a+NPPnHpIKg9EedQAFAAAfPAAI0AAAAAAAAAAAAAAAAAADPZ3c6NSNSm8Si8p/R9j0yxuI31vQqOPk35KrDP4ktE3zWce55Ydz9nl9HNa3n+LFSHqtJL2x7HPOcbdfFnZk6ypW3VuJKMVwjHReyLKFrl7816I2VKyjnewZas4qWMnGvV7I1GecrD+hDuINslXd9uLy4NLU2r5teJnSbSqscEKpIrO5zzI0p5LIu1XPJcpkdywzKpGmUyjMlQZr4vQl05mVSJLKNfex3IyqU0viU1vRysreWqyiZ8QiXDcvLFNt8l+rfJCMZThr9mfaTUckrijBrm6eU133XnP5HoFtcRq041KbUoTWU1zR4rfVk5KCcZbmVvx/Fr15pHd/Z9tRSpTt5PzQblDvF8UvR/qeuPHY7MFQVFAAB88AAjQAAAAAAAAAAAAAAAAAABkoV5U5xnBuMovKa5MxgD2LY+1HXtKNR8ZLEscpJ4ZjubjDb9tTgfD/iJ2ydOWXB6r+F89OjOgW0N/VYaaymuDOGWOq9OHk3NMt3eylNej9DApZ5Zf95CoOT1+Rn+B/wAEVjj2TMjL1AxThhk21FOJliyymjIiNLoPLJdPOC+xsZTfljl/kvV8jcxtKdFZnicl1+6vlz+ZZjazlnMe2to2UpLfm9yHHefFrsvqch4g8QqadC28tLhOXOp6voZvE/iaVdulTl5PxNfi7LscoztjjI8uWdyEyZs+8nRqxqU3uyg8p/z7ENF8UbYe27J2lG6t4Vo6by1XSS4omnPeBqcVs+Di8uUpuXaWcY9kvc6IqKAAD53ABGgAAAAAAAAAAAAAAAAAAAAAJVnf1KLzB/J6p/IikizsqlepGnShKc5PCjFasg3lt4pl5YukpN6eRtNvksHa1NnVqdGFSrS3N7XdbTcOiljgSvC3g+ls+KrV92rc40xrGn2j1f8AF7Gyu7pzzk55SO3jyytcq6nQxTRsLux3XvRXllr6djLY7Dq19Ut2HOctF8uvyOU5ei2SbrU0ouUsJHR2Hh54U63kXT8T/kbS2s6NsvIt6f78uPyXIsq3LfE6TD7efLy/5X1a0acd2CUV0R554o8RublRpPyrSclz/hXYl+J/EOM0aMvM9JyX4V+6n1OKZ104LWy0uaLlFLVlFqRbv54GOpVzoi6lADo/C/iOVlU1zKlPG/H/AOo9/wBT1i0u6denGpSkpwlwa/R9H2PDIm12Nt6tZ1N6k/K/vQf3Zeq69yo9kwDm7fx1ZyhFzlKEmtYuMnh+qWGAPGQARoAAAAAAAAAAAAAAAAAAAFYxzoiXStMfe1fT+YRHp0XLh7nXeBt2jfxzVUHUjKGXzbxhJ8nlJ/LHM0eDHUlgUex1JycnGbxNPXo/QK1ytdF+b9EY7H/UWtpVk9Z0ob0n2STfqT5xz9Oy5I5+v26e+pwpZQpxW7KG+tdZ64fpwM1xcyloRXSWTOopruv06mpGLbe0aUTmPFe2PhQ+DTlipP72Pwxx15Nm627tmFnS3nh1Jfch1fV9keXXNxKrOU5tuUnlvqyxEWZRRFWaXEwu6xwKJCp6ZZFrVc6IpK5b0McVlgX0oZJcYFaNPCMoFqiX4RbkFF/wu69wY8lANWACKAAAAAAAAAAAAAAAAFUsvAAE+jSUfVmdvkUBWVsngiykASq9u8J0/wDbrdPlCKXy/q2bWtsyEteD7AEEb9nbnN69yLtfaULK3dWSb5KP70nwTfJABXkW0NoVLirKpVeZP2S5JLkiNEA0ytrxi1ryNeoagEVmhRJNOikVBUZSjYAVQNgAUyAAj//Z"
                       alt=""
                     />
@@ -1110,26 +1139,34 @@
               </div>
               <div>
                 <ul class="news__list flex flex-column">
-                  <li class="my-3 text-xs news-hover">
-                    Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                  <li class="my-3 text-xs news-list">
+                    <span class="ml-1">
+                      Tesla makes its S&P 500 debut in exactly 4.20 weeks
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Big Pharma's COVID-19 vaccines injected $1 trillion into the
-                    S&P 500
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Big Pharma's COVID-19 vaccines injected $1 trillion into the S&P 500
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Elon who? Tesla's Chinese rival NIO is up 1,200% this year
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Tencent bounces hard after President Xi spooks market into
-                    $200B
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Tencent bounces hard after President Xi spooks market into $200B
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
-                  <li class="my-3 text-xs news-hover">
-                    Warren Buffett might've just sold $5B worth of Apple stock
+                  <li class="py-2 text-xs news-list">
+                    <span class="ml-1">
+                      Warren Buffett might've just sold $5B worth of Apple stock
+                    </span>
                   </li>
                   <hr class="bottom-gray" />
                 </ul>

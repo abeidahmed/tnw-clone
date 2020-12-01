@@ -1,12 +1,6 @@
 .news__image {
   width: 96px;
   height: 96px;
-  margin-top: -20px;
-  cursor: pointer;
-}
-
-.news__title {
-  cursor: pointer;
 }
 
 .news__title:hover {
@@ -20,10 +14,10 @@
 }
 
 .news__list li::before {
-  content: "\2022";
+  content: '\2022';
   color: var(--primary);
   font-weight: bold;
-  display: inline-block;
+  display: block;
   width: 0.6em;
 }
 
@@ -31,6 +25,10 @@
   color: 1px solid var(--gray-300);
 }
 
-.news-hover:hover {
+.news-list {
+  display: inline-flex;
+}
+
+.news-list:hover {
   color: var(--gray-400);
 }

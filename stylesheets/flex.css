@@ -17,3 +17,7 @@
 .flex-column {
   flex-direction: column;
 }
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
