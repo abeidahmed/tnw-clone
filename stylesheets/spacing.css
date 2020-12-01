@@ -107,6 +107,10 @@
   border-top: 1px solid var(--gray-200);
 }
 
+.divide-y-border-dark > * + * {
+  border-top: 1px solid var(--gray-800);
+}
+
 @media only screen and (min-width: 768px) {
   .md\:space-x-1 > * + * {
     margin-left: 4px;

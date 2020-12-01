@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./stylesheets/label.css" />
     <link rel="stylesheet" href="./stylesheets/advertisement.css" />
     <link rel="stylesheet" href="./stylesheets/news.css" />
+    <link rel="stylesheet" href="./stylesheets/dropdown.css" />
     <link rel="stylesheet" href="./stylesheets/button.css" />
     <link rel="stylesheet" href="./stylesheets/typography.css" />
     <link rel="stylesheet" href="./stylesheets/background.css" />
@@ -34,10 +35,36 @@
       </div>
       <div class="flex-1">
         <div class="header__top hidden md:flex items-center justify-between px-5 bg-gray-900">
-          <nav class="text-gray-400 text-xs space-x-2">
+          <nav class="text-gray-400 flex text-xs space-x-2">
             <a href="#" class="text-white">News</a>
-            <a href="#" class="hover:text-white">Events</a>
-            <a href="#" class="hover:text-white">Business</a>
+            <div class="dropdown">
+              <a href="#" class="hover:text-white">
+                Events
+                <i class="fas fa-chevron-down text-xs"></i>
+              </a>
+              <div class="dropdown__container">
+                <div class="dropdown__inner divide-y-border-dark">
+                  <a href="#" class="py-2 bg-gray-1100 w-full block px-3 hover:text-white">TNW</a>
+                  <a href="#" class="py-2 bg-gray-1100 w-full block px-3 hover:text-white">
+                    Couch conferences
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="#" class="hover:text-white">
+                Business
+                <i class="fas fa-chevron-down text-xs"></i>
+              </a>
+              <div class="dropdown__container">
+                <div class="dropdown__inner divide-y-border-dark">
+                  <a href="#" class="py-2 bg-gray-1100 w-full block px-3 hover:text-white">Index</a>
+                  <a href="#" class="py-2 bg-gray-1100 w-full block px-3 hover:text-white">
+                    Programs
+                  </a>
+                </div>
+              </div>
+            </div>
             <a href="#" class="hover:text-white">AMAs</a>
             <a href="#" class="hover:text-white">Spaces</a>
             <a href="#" class="hover:text-white">Terms & conditions</a>

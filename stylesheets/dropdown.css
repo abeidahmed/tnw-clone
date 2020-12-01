@@ -1,0 +1,20 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown__container {
+  position: absolute;
+  width: 192px;
+  z-index: 100;
+  display: none;
+  transition: all 150ms ease-in-out;
+  overflow: hidden;
+}
+
+.dropdown__inner {
+  margin-top: 4px;
+}
+
+.dropdown:hover .dropdown__container {
+  display: block;
+}
