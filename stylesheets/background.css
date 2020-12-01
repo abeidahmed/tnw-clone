@@ -10,6 +10,14 @@
   background-color: var(--primary-light);
 }
 
-.bg-primary-lighter {
-  background-color: var(--primary-lighter);
+.bg-gray-999 {
+  background-color: var(--gray-999);
+}
+
+.bg-gray-1000 {
+  background-color: var(--gray-1000);
+}
+
+.bg-gray-1100 {
+  background-color: var(--gray-1100);
 }
