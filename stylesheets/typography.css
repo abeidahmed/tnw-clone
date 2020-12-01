@@ -41,3 +41,9 @@
 .font-medium-bold {
   font-weight: 700;
 }
+
+.underline-gray:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--gray-400);
+  cursor: pointer;
+}
