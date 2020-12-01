@@ -107,6 +107,7 @@
 /** card in 2 horizontal */
 .card__horizontal-in-2 {
   display: flex;
+  position: relative;
 }
 
 .card__horizontal-in-2 > * + * {

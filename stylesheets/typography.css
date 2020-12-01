@@ -42,6 +42,10 @@
   font-weight: 700;
 }
 
+.line-through {
+  text-decoration: line-through;
+}
+
 .hover\:text-gray-900:hover {
   color: var(--gray-900);
 }
