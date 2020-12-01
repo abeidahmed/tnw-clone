@@ -6,3 +6,27 @@
   justify-content: center;
   border-left: 1px solid var(--gray-200);
 }
+
+.fixed__btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+}
+
+.fixed__btn button {
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #146ff8;
+}
+
+.fixed__btn button:hover {
+  transform: scale(1.1);
+}
+
+.fixed__btn img {
+  height: 24px;
+}
