@@ -39,6 +39,16 @@
   padding-bottom: 12px;
 }
 
+.py-8 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.py-9 {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
 .space-x-2 > * + * {
   margin-left: 8px;
 }

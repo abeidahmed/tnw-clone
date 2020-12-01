@@ -1,11 +1,3 @@
-.footer__wrapper {
-  padding: 36px 0;
-}
-
-.footer__bottom {
-  padding: 32px 0;
-}
-
 .footer__icons {
   font-size: 16px;
   background-color: var(--gray-999);
@@ -20,13 +12,5 @@
 }
 
 .footer__icons:hover {
-  background-color: var(--gray-1100);
-}
-
-.footer__wrapper {
-  background-color: var(--gray-1000);
-}
-
-.footer__bottom {
   background-color: var(--gray-1100);
 }
