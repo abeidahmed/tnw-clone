@@ -28,35 +28,39 @@
   <body>
     <header class="flex header">
       <div class="px-4 bg-gray-900 flex items-center justify-center lg:hidden">
-        <img style="height: 16px" src="./assets/tnw.svg" alt="" />
+        <img style="height: 16px;" src="./assets/tnw.svg" alt="" />
       </div>
       <div class="flex-1">
-        <div
-          class="header__top hidden md:flex items-center justify-between px-5 bg-gray-900"
-        >
+        <div class="header__top hidden md:flex items-center justify-between px-5 bg-gray-900">
           <nav class="text-gray-400 text-xs space-x-2">
             <a href="#" class="text-white">News</a>
-            <a href="#">Events</a>
-            <a href="#">Business</a>
-            <a href="#">AMAs</a>
-            <a href="#">Spaces</a>
-            <a href="#">Terms & conditions</a>
+            <a href="#" class="hover:text-white">Events</a>
+            <a href="#" class="hover:text-white">Business</a>
+            <a href="#" class="hover:text-white">AMAs</a>
+            <a href="#" class="hover:text-white">Spaces</a>
+            <a href="#" class="hover:text-white">Terms & conditions</a>
           </nav>
           <nav class="text-gray-400 text-xs space-x-2">
-            <a href="#">About</a>
-            <a href="#">Advertise</a>
-            <a href="#">Jobs</a>
-            <a href="#">Contact</a>
+            <a href="#" class="hover:text-white">About</a>
+            <a href="#" class="hover:text-white">Advertise</a>
+            <a href="#" class="hover:text-white">Jobs</a>
+            <a href="#" class="hover:text-white">Contact</a>
           </nav>
         </div>
         <div class="header__bottom flex items-center justify-between">
-          <nav class="hidden md:flex px-5 space-x-3 font-medium">
-            <a href="#" class="text-sm text-gray-400 uppercase">Latest</a>
-            <a href="#" class="text-sm text-gray-400 uppercase">Hard fork</a>
-            <a href="#" class="text-sm text-gray-400 uppercase">Plugged</a>
-            <a href="#" class="text-sm text-gray-400 uppercase">Readme</a>
-            <a href="#" class="text-sm text-gray-400 uppercase">
+          <nav class="hidden md:flex px-5 space-x-5 font-medium">
+            <a href="#" class="text-sm text-gray-400 uppercase hover:text-gray-900">Latest</a>
+            <a href="#" class="text-sm text-gray-400 uppercase hover:text-gray-900">Hard fork</a>
+            <a href="#" class="text-sm text-gray-400 uppercase hover:text-gray-900">Plugged</a>
+            <a href="#" class="text-sm text-gray-400 uppercase hover:text-gray-900">Readme</a>
+            <a href="#" class="text-sm text-gray-400 uppercase hover:text-gray-900">
               Growth quarters
+            </a>
+            <a href="#" class="hidden lg:block text-sm text-gray-400 uppercase hover:text-gray-900">
+              Shift
+            </a>
+            <a href="#" class="hidden lg:block text-sm text-gray-400 uppercase hover:text-gray-900">
+              Neural
             </a>
           </nav>
           <div class="flex items-center ml-auto">
@@ -76,11 +80,10 @@
           <div class="featured__img-logo hidden lg:block">
             <img height="48" src="./assets/tnw.svg" alt="" />
           </div>
-          <div class="card__overlay"></div>
-          <div
-            class="hidden lg:block card__overlay card__overlay--primary"
-          ></div>
+          <div class="card__overlay lg:hidden"></div>
+          <div class="hidden lg:block card__overlay card__overlay--primary"></div>
           <a href="#" class="card__link"></a>
+          <div class="card__featured__date hidden lg:block">Monday - November 30, 2020</div>
           <img src="./assets/featured.jpg" alt="" class="card__featured-box" />
           <div class="card__meta-container">
             <span class="card__featured-category">Landscape</span>
@@ -104,16 +107,10 @@
           <div class="card__featured">
             <div class="card__overlay"></div>
             <a href="#" class="card__link"></a>
-            <img
-              src="./assets/featured-2.png"
-              alt=""
-              class="card__featured-box"
-            />
+            <img src="./assets/featured-2.png" alt="" class="card__featured-box" />
             <div class="card__meta-container">
               <span class="card__featured-category">Insights</span>
-              <h3
-                class="card__featured-title card__featured-title--scalable--sm"
-              >
+              <h3 class="card__featured-title card__featured-title--scalable--sm">
                 Long term impacts
               </h3>
               <div class="card__featured-meta">
@@ -132,16 +129,10 @@
           <div class="card__featured">
             <div class="card__overlay"></div>
             <a href="#" class="card__link"></a>
-            <img
-              src="./assets/featured-3.jpg"
-              alt=""
-              class="card__featured-box"
-            />
+            <img src="./assets/featured-3.jpg" alt="" class="card__featured-box" />
             <div class="card__meta-container">
               <span class="card__featured-category">Tech</span>
-              <h3
-                class="card__featured-title card__featured-title--scalable--sm"
-              >
+              <h3 class="card__featured-title card__featured-title--scalable--sm">
                 Maseratti going electric
               </h3>
               <div class="card__featured-meta">
@@ -162,20 +153,19 @@
       <div class="container">
         <section class="section">
           <a href="#" class="section__header">
-            <h2 class="section__title">Latest news</h2>
-            <i class="fas fa-chevron-right section__title-icon"></i>
+            <h2 class="section__title">
+              Latest news
+              <i class="fas fa-chevron-right section__title-icon"></i>
+            </h2>
           </a>
-          <div
-            class="grid gap-3 md:gap-4 md:grid-cols-3 lg:grid-cols-4 section__content"
-          >
+          <div class="grid gap-3 md:gap-4 md:grid-cols-3 lg:grid-cols-4 mt-5">
             <div class="card__horizontal-in-2 md:col-span-1">
               <a href="#" class="card__horizontal-in-2__img">
                 <img src="./assets/featured-3.jpg" alt="" />
               </a>
               <div>
                 <a href="#" class="card__horizontal-in-2__title">
-                  The long-term impact COVID-19 will have on startups seeking
-                  capital
+                  The long-term impact COVID-19 will have on startups seeking capital
                 </a>
                 <footer class="card__horizontal-in-2__footer">
                   <span>Built in</span>
@@ -189,8 +179,7 @@
               </a>
               <div>
                 <a href="#" class="card__horizontal-in-2__title">
-                  Spotify's Stories should feature music suggestions, not
-                  artists' video messages
+                  Spotify's Stories should feature music suggestions, not artists' video messages
                 </a>
                 <footer class="card__horizontal-in-2__footer">
                   <span>Built in</span>
@@ -204,8 +193,8 @@
               </a>
               <div>
                 <a href="#" class="card__horizontal-in-2__title">
-                  Facebook said It would ban holocaust deniers. Instead, its
-                  algorithm provided a network for them
+                  Facebook said It would ban holocaust deniers. Instead, its algorithm provided a
+                  network for them
                 </a>
                 <footer class="card__horizontal-in-2__footer">
                   <span>Built in</span>
@@ -219,8 +208,7 @@
               </a>
               <div>
                 <a href="#" class="card__horizontal-in-2__title">
-                  Spooky space: Blue ring nebula reveals the secrets of binary
-                  stars
+                  Spooky space: Blue ring nebula reveals the secrets of binary stars
                 </a>
                 <footer class="card__horizontal-in-2__footer">
                   <span>Built in</span>
@@ -234,8 +222,8 @@
               </a>
               <div>
                 <a href="#" class="card__horizontal-in-2__title">
-                  If you want to learn a new tech skill, these training bundles
-                  can help. And it’s all under $21
+                  If you want to learn a new tech skill, these training bundles can help. And it’s
+                  all under $21
                 </a>
                 <footer class="card__horizontal-in-2__footer">
                   <span>Built in</span>
@@ -290,30 +278,34 @@
         <section class="section">
           <div class="lg:flex items-center justify-between">
             <a href="#" class="section__header">
-              <h2 class="section__title">Latest funding rounds on Index.co</h2>
-              <i class="fas fa-chevron-right section__title-icon"></i>
+              <h2 class="section__title">
+                Latest funding rounds on Index.co
+                <i class="fas fa-chevron-right section__title-icon"></i>
+              </h2>
             </a>
             <div class="text-xs lg:flex md:space-x-2 md:flex">
               <a href="#" class="block advert__link">See more</a>
+            <div
+              class="text-xs space-y-2 md:text-sm md:font-medium md:flex md:space-x-2 md:space-y-0"
+            >
+              <a href="#" class="block text-primary hover:text-gray-900">See more</a>
               <span class="hidden md:block text-primary">|</span>
-              <a href="#" class="block advert__link">Get updates by email</a>
+              <a href="#" class="block text-primary hover:text-gray-900">Get updates by email</a>
               <span class="hidden md:block text-primary">|</span>
-              <a href="#" class="block advert__link">Add info</a>
+              <a href="#" class="block text-primary hover:text-gray-900">Add info</a>
             </div>
           </div>
-          <div class="mt-4 grid gap-5 md:grid-cols-3 lg:grid-cols-4">
+          <div class="mt-5 grid gap-5 md:grid-cols-3 lg:grid-cols-4">
             <div class="advert__card md:col-span-1">
               <a href="#">
                 <div class="bg-primary py-3">
-                  <h2
-                    class="text-lg uppercase text-white font-medium advert__header"
-                  >
+                  <h2 class="uppercase text-white font-semibold advert__header">
                     Clickify
                   </h2>
                 </div>
                 <div class="bg-primary-light">
-                  <div class="advert__header">
-                    <h3 class="font-medium-bold">$700k</h3>
+                  <div class="advert__header pt-2">
+                    <h3 class="font-semibold">$700k</h3>
                     <p class="uppercase text-xs text-gray-400">Seed fund</p>
                   </div>
                   <img
@@ -325,18 +317,18 @@
                 <div class="advert__info px-3 mt-3 space-y-2">
                   <div class="advert__infoTitles flex items-center space-x-2">
                     <i class="fas fa-tag"></i>
-                    <p>E-Commerce,+2</p>
+                    <p class="text-sm text-gray-700">E-Commerce, +2</p>
                   </div>
                   <div class="advert__infoTitles flex items-center space-x-2">
                     <i class="fas fa-briefcase"></i>
-                    <p>E-Commerce,+2</p>
+                    <p class="text-sm text-gray-700">Shunwei Capital</p>
                   </div>
                 </div>
                 <hr class="my-3" />
                 <div class="px-3">
                   <p class="text-xs text-gray-700">
-                    Pakistani fashion e-commerce startup Clicky.pk attracts USD
-                    700,000 in Pre-Series A funding round
+                    Pakistani fashion e-commerce startup Clicky.pk attracts USD 700,000 in
+                    Pre-Series A funding round
                     <span class="text-gray-400">on DealStreetAsia</span>
                   </p>
                 </div>
@@ -345,15 +337,13 @@
             <div class="advert__card md:col-span-1">
               <a href="#">
                 <div class="bg-primary py-3">
-                  <h2
-                    class="text-lg uppercase text-white font-medium advert__header"
-                  >
+                  <h2 class="uppercase text-white font-semibold advert__header">
                     Pahamify
                   </h2>
                 </div>
                 <div class="bg-primary-light">
-                  <div class="advert__header">
-                    <h3 class="font-medium-bold">Undisclosed amount</h3>
+                  <div class="advert__header pt-2">
+                    <h3 class="font-semibold">Undisclosed amount</h3>
                     <p class="uppercase text-xs text-gray-400">Series A</p>
                   </div>
                   <img
@@ -365,18 +355,18 @@
                 <div class="advert__info px-3 mt-3 space-y-2">
                   <div class="advert__infoTitles flex items-center space-x-2">
                     <i class="fas fa-tag"></i>
-                    <p>E-Commerce,+2</p>
+                    <p class="text-sm text-gray-700">Asif Keshodia</p>
                   </div>
                   <div class="advert__infoTitles flex items-center space-x-2">
                     <i class="fas fa-briefcase"></i>
-                    <p>E-Commerce,+2</p>
+                    <p class="text-sm text-gray-700">E-Commerce, +2</p>
                   </div>
                 </div>
                 <hr class="my-3" />
                 <div class="px-3">
                   <p class="text-xs text-gray-700">
-                    Pakistani fashion e-commerce startup Clicky.pk attracts USD
-                    700,000 in Pre-Series A funding round
+                    Pakistani fashion e-commerce startup Clicky.pk attracts USD 700,000 in
+                    Pre-Series A funding round
                     <span class="text-gray-400">on DealStreetAsia</span>
                   </p>
                 </div>
@@ -385,15 +375,13 @@
             <div class="advert__card md:col-span-1">
               <a href="#">
                 <div class="bg-primary py-3">
-                  <h2
-                    class="text-lg uppercase text-white font-medium advert__header"
-                  >
+                  <h2 class="uppercase text-white font-semibold advert__header">
                     Helia
                   </h2>
                 </div>
                 <div class="bg-primary-light">
-                  <div class="advert__header">
-                    <h3 class="font-medium-bold">$3M</h3>
+                  <div class="advert__header pt-2">
+                    <h3 class="font-semibold">$3M</h3>
                     <p class="uppercase text-xs text-gray-400">
                       Venture Capital
                     </p>
@@ -407,18 +395,18 @@
                 <div class="advert__info px-3 mt-3 space-y-2">
                   <div class="advert__infoTitles flex items-center space-x-2">
                     <i class="fas fa-tag"></i>
-                    <p>E-Commerce,+2</p>
+                    <p class="text-sm text-gray-700">Security</p>
                   </div>
                   <div class="advert__infoTitles flex items-center space-x-2">
                     <i class="fas fa-briefcase"></i>
-                    <p>E-Commerce,+2</p>
+                    <p class="text-sm text-gray-700">Maven Capital Partners</p>
                   </div>
                 </div>
                 <hr class="my-3" />
                 <div class="px-3">
                   <p class="text-xs text-gray-700">
-                    Pakistani fashion e-commerce startup Clicky.pk attracts USD
-                    700,000 in Pre-Series A funding round
+                    Pakistani fashion e-commerce startup Clicky.pk attracts USD 700,000 in
+                    Pre-Series A funding round
                     <span class="text-gray-400">on DealStreetAsia</span>
                   </p>
                 </div>
@@ -427,15 +415,13 @@
             <div class="advert__card md:col-span-1 hidden lg:block">
               <a href="#">
                 <div class="bg-primary py-3">
-                  <h2
-                    class="text-lg uppercase text-white font-medium advert__header"
-                  >
+                  <h2 class="uppercase text-white font-semibold advert__header">
                     RevLifter
                   </h2>
                 </div>
                 <div class="bg-primary-light">
-                  <div class="advert__header">
-                    <h3 class="font-medium-bold">$3.3M</h3>
+                  <div class="advert__header pt-2">
+                    <h3 class="font-semibold">$3.3M</h3>
                     <p class="uppercase text-xs text-gray-400">Series A</p>
                   </div>
                   <img
@@ -447,18 +433,18 @@
                 <div class="advert__info px-3 mt-3 space-y-2">
                   <div class="advert__infoTitles flex items-center space-x-2">
                     <i class="fas fa-tag"></i>
-                    <p>E-Commerce,+2</p>
+                    <p class="text-sm text-gray-700">Education</p>
                   </div>
                   <div class="advert__infoTitles flex items-center space-x-2">
                     <i class="fas fa-briefcase"></i>
-                    <p>E-Commerce,+2</p>
+                    <p class="text-sm text-gray-700">Private venture</p>
                   </div>
                 </div>
                 <hr class="my-3" />
                 <div class="px-3">
                   <p class="text-xs text-gray-700">
-                    Pakistani fashion e-commerce startup Clicky.pk attracts USD
-                    700,000 in Pre-Series A funding round
+                    Pakistani fashion e-commerce startup Clicky.pk attracts USD 700,000 in
+                    Pre-Series A funding round
                     <span class="text-gray-400">on DealStreetAsia</span>
                   </p>
                 </div>
@@ -1102,7 +1088,6 @@
                   </div>
                 </div>
               </div>
-
               <div class="news__bottomImage bg-primary-lighter">
                 <h3 class="uppercase text-primary text-sm mx-3">Latest</h3>
                 <div class="flex justify-between">

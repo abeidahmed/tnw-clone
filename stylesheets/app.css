@@ -1,5 +1,11 @@
 .main {
   min-height: calc(100vh - 48px);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.12) 29%,
+    rgba(195, 195, 195, 0.35) 100%
+  );
 }
 
 .container {
@@ -10,11 +16,6 @@
 
 .section {
   margin-top: 60px;
-}
-
-.section__header {
-  display: inline-flex;
-  align-items: center;
 }
 
 .section__header:hover .section__title,
@@ -29,19 +30,15 @@
 }
 
 .section__title-icon {
-  margin-left: 8px;
-  margin-top: 6px;
+  margin-left: 4px;
+  font-size: 18px;
 }
 
 .section__title,
 .section__title-icon {
   color: var(--primary);
-  line-height: 32px;
   transition: all 150ms ease-in-out;
-}
-
-.section__content {
-  margin-top: 20px;
+  line-height: 32px;
 }
 
 @media only screen and (min-width: 768px) {

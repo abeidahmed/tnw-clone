@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.card__featured:hover .card__overlay {
+  opacity: 0.95;
+}
+
 .card__link {
   z-index: 10;
 }
@@ -10,7 +14,6 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 12px;
 }
 
 .card__featured-category,
@@ -43,6 +46,19 @@
   margin-left: 8px;
 }
 
+.card__featured__date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.card__meta-container,
+.card__featured__date {
+  padding: 12px;
+}
+
 .card__overlay {
   position: absolute;
   top: 0;
@@ -50,19 +66,20 @@
   bottom: 0;
   right: 0;
   background: linear-gradient(
-    356deg,
-    rgba(0, 0, 0, 0.7) 0%,
-    rgba(0, 0, 0, 0.7) 33%,
-    rgba(75, 85, 99, 1) 100%
+    180deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(5, 4, 4, 0.6) 20%,
+    rgba(0, 0, 0, 1) 100%
   );
+  transition: all 150ms ease-in-out;
 }
 
 .card__overlay--primary {
   background: linear-gradient(
-    343deg,
+    331deg,
     rgba(0, 0, 0, 0.4) 0%,
-    rgba(140, 140, 140, 0.5) 33%,
-    rgba(255, 39, 0, 1) 100%
+    rgba(5, 4, 4, 0.7) 29%,
+    rgba(255, 60, 50, 0.9) 100%
   );
 }
 
