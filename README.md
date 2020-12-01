@@ -6,6 +6,8 @@ A clone of [TNW](https://thenextweb.com/)'s home page. The website is build usin
 
 The website is fully responsive with the help of two `media query` `breakpoints` (the default being the smaller viewport), namely: `< 768px`, `>= 768px`, `>= 1024px`.
 
+![Screenshot of TNW clone](./assets/screenshot.jpg)
+
 ## Built With
 
 - HTML
