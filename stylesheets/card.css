@@ -2,10 +2,6 @@
   position: relative;
 }
 
-.card__featured:hover .card__overlay {
-  opacity: 0.95;
-}
-
 .card__link {
   z-index: 10;
 }
@@ -81,6 +77,10 @@
     rgba(5, 4, 4, 0.7) 29%,
     rgba(255, 60, 50, 0.9) 100%
   );
+}
+
+.card__featured:hover .card__overlay {
+  opacity: 0.95;
 }
 
 .card__link,

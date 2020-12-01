@@ -18,11 +18,6 @@
   margin-top: 60px;
 }
 
-.section__header:hover .section__title,
-.section__header:hover .section__title-icon {
-  color: var(--gray-900);
-}
-
 .section__title {
   font-size: 28px;
   font-weight: 800;
@@ -39,6 +34,11 @@
   color: var(--primary);
   transition: all 150ms ease-in-out;
   line-height: 32px;
+}
+
+.section__header:hover .section__title,
+.section__header:hover .section__title-icon {
+  color: var(--gray-900);
 }
 
 @media only screen and (min-width: 768px) {
