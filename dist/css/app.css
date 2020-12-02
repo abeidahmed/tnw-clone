@@ -270,6 +270,30 @@ video {
   height: auto;
 }
 
+.bg-gray-900 {
+  background-color: #18181b;
+}
+
+.bg-primary {
+  background-color: #f42;
+}
+
+.bg-primary-light {
+  background-color: #ffebe7;
+}
+
+.bg-gray-999 {
+  background-color: #333;
+}
+
+.bg-gray-1000 {
+  background-color: #131313;
+}
+
+.bg-gray-1100 {
+  background-color: #000;
+}
+
 .card__featured {
   position: relative;
 }
