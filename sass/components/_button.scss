@@ -1,0 +1,31 @@
+.btn__icon {
+  height: 48px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid $gray-200;
+}
+
+.fixed__btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+
+  button {
+    @include rectangle(48px, 48px);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background-color: #146ff8;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  img {
+    height: 24px;
+  }
+}
