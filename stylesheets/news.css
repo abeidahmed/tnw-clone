@@ -14,7 +14,7 @@
 }
 
 .news__list li::before {
-  content: '\2022';
+  content: "\2022";
   color: var(--primary);
   font-weight: bold;
   display: block;
