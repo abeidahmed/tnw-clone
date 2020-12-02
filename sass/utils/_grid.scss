@@ -1,0 +1,52 @@
+$gap-default: 4px;
+
+$gaps: (
+  3: 3 * $gap-default,
+  4: 4 * $gap-default,
+  5: 5 * $gap-default,
+);
+
+@each $prop, $value in $gaps {
+  .gap-#{$prop} {
+    gap: $value;
+  }
+}
+
+.md\:gap-4 {
+  gap: 16px;
+}
+
+$grid-cols: (
+  2: repeat(2, minmax(0, 1fr)),
+  3: repeat(3, minmax(0, 1fr)),
+  4: repeat(4, minmax(0, 1fr)),
+);
+
+@each $prop, $value in $grid-cols {
+  @media only screen and (min-width: 768px) {
+    .md\:grid-cols-#{$prop} {
+      grid-template-columns: $value;
+      -ms-grid-columns: $value;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .lg\:grid-cols-#{$prop} {
+      grid-template-columns: $value;
+      -ms-grid-columns: $value;
+    }
+  }
+}
+
+$grid-spans: (
+  1: span 1 / span 1,
+  2: span 2 / span 2,
+);
+
+@each $prop, $value in $grid-spans {
+  @media only screen and (min-width: 768px) {
+    .md\:col-span-#{$prop} {
+      grid-column: $value;
+    }
+  }
+}

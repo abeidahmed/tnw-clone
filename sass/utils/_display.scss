@@ -3,6 +3,7 @@ $displays: (
   flex: flex,
   block: block,
   grid: grid,
+  inline-flex: inline-flex,
 );
 
 @each $prop, $value in $displays {

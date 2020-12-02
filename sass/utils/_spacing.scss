@@ -1,0 +1,85 @@
+$default-spacing: 4px;
+
+$spacings: (
+  auto: auto,
+  1: $default-spacing * 1,
+  2: $default-spacing * 2,
+  3: $default-spacing * 3,
+  4: $default-spacing * 4,
+  5: $default-spacing * 5,
+  6: $default-spacing * 6,
+  7: $default-spacing * 7,
+  8: $default-spacing * 8,
+  9: $default-spacing * 9,
+);
+
+@each $prop, $value in $spacings {
+  @each $property, $initial in (margin: m, padding: p) {
+    .#{$initial}-#{$prop},
+    .#{$initial}-#{$prop} {
+      #{$property}: $value;
+    }
+
+    .#{$initial}l-#{$prop},
+    .#{$initial}x-#{$prop} {
+      #{$property}-left: $value;
+    }
+
+    .#{$initial}r-#{$prop},
+    .#{$initial}x-#{$prop} {
+      #{$property}-right: $value;
+    }
+
+    .#{$initial}t-#{$prop},
+    .#{$initial}y-#{$prop} {
+      #{$property}-top: $value;
+    }
+
+    .#{$initial}b-#{$prop},
+    .#{$initial}y-#{$prop} {
+      #{$property}-bottom: $value;
+    }
+  }
+}
+
+.w-full {
+  width: 100%;
+}
+
+.space-x-2 > * + * {
+  margin-left: 8px;
+}
+
+.space-x-3 > * + * {
+  margin-left: 12px;
+}
+
+.space-x-5 > * + * {
+  margin-left: 20px;
+}
+
+.space-y-2 > * + * {
+  margin-top: 8px;
+}
+
+.divide-y-border > * + * {
+  border-top: 1px solid var(--gray-200);
+}
+
+.divide-y-border-dark > * + * {
+  border-top: 1px solid var(--gray-800);
+}
+
+@media only screen and (min-width: 768px) {
+  .md\:space-x-1 > * + * {
+    margin-left: 4px;
+  }
+
+  .md\:space-x-2 > * + * {
+    margin-left: 8px;
+  }
+
+  .md\:space-y-0 > * + * {
+    margin-top: 0;
+  }
+}

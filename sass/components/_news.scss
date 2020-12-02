@@ -1,0 +1,30 @@
+.news__image {
+  width: 96px;
+  height: 96px;
+}
+
+.news__title:hover {
+  text-decoration: underline;
+  text-decoration-color: $primary;
+}
+
+.news__list {
+  list-style: none;
+  cursor: pointer;
+
+  li::before {
+    content: '\2022';
+    color: $primary;
+    font-weight: bold;
+    display: block;
+    width: 0.6em;
+  }
+
+  &:hover {
+    color: $gray-400;
+  }
+}
+
+.bottom-gray {
+  color: 1px solid $gray-300;
+}
