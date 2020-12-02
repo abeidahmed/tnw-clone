@@ -1,0 +1,28 @@
+$displays: (
+  hidden: none,
+  flex: flex,
+  block: block,
+  grid: grid,
+);
+
+@each $prop, $value in $displays {
+  .#{$prop} {
+    display: $value;
+  }
+}
+
+@each $prop, $value in $displays {
+  @media only screen and (min-width: 768px) {
+    .md\:#{$prop} {
+      display: $value;
+    }
+  }
+}
+
+@each $prop, $value in $displays {
+  @media only screen and (min-width: 1024px) {
+    .lg\:#{$prop} {
+      display: $value;
+    }
+  }
+}

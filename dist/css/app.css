@@ -294,6 +294,79 @@ video {
   background-color: #000;
 }
 
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+@media only screen and (min-width: 768px) {
+  .md\:hidden {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .md\:flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .md\:grid {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .lg\:hidden {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .lg\:flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .lg\:grid {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
 .card__featured {
   position: relative;
 }
