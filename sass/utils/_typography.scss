@@ -1,0 +1,64 @@
+$colors: (
+  primary: $primary,
+  white: #fff,
+  gray-400: $gray-400,
+  gray-500: $gray-500,
+  gray-700: $gray-700,
+);
+
+@each $prop, $value in $colors {
+  .text-#{$prop} {
+    color: $value;
+  }
+
+  .hover\:text-#{$prop}:hover {
+    color: $value;
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+$sizes: (
+  xs: 13px,
+  sm: 14px,
+  lg: 20px,
+);
+
+@each $prop, $value in $sizes {
+  .text-#{$prop} {
+    font-size: $value;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .md\:text-#{$prop} {
+      font-size: $value;
+    }
+  }
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 700;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hover\:underline:hover {
+  text-decoration: underline;
+  text-decoration-color: $gray-500;
+}
+
+.md\:font-medium {
+  font-weight: 500;
+}

@@ -1,12 +1,9 @@
 .offer__label {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 0;
-  height: 0;
+  @include top-right;
+  @include rectangle(0px, 0px);
   border-style: solid;
   border-width: 0 75px 75px 0;
-  border-color: transparent var(--yellow) transparent transparent;
+  border-color: transparent $yellow transparent transparent;
 }
 
 .offer__label > div {

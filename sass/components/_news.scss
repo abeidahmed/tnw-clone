@@ -1,11 +1,10 @@
 .news__image {
-  width: 96px;
-  height: 96px;
+  @include rectangle(96px, 96px);
 }
 
 .news__title:hover {
   text-decoration: underline;
-  text-decoration-color: var(--primary);
+  text-decoration-color: $primary;
 }
 
 .news__list {
@@ -15,14 +14,14 @@
 
 .news__list li::before {
   content: "\2022";
-  color: var(--primary);
+  color: $primary;
   font-weight: bold;
   display: block;
   width: 0.6em;
 }
 
 .bottom-gray {
-  color: 1px solid var(--gray-300);
+  color: 1px solid $gray-300;
 }
 
 .news-list {
@@ -30,5 +29,5 @@
 }
 
 .news-list:hover {
-  color: var(--gray-400);
+  color: $gray-400;
 }

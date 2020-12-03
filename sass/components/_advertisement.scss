@@ -1,6 +1,5 @@
 .advert__image {
-  height: 64px;
-  width: 64px;
+  @include rectangle;
   transform: translateY(-50%);
   margin: -50px 0 0 12px;
 }
